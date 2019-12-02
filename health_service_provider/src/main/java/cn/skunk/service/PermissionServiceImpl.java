@@ -10,6 +10,13 @@ import com.github.pagehelper.PageHelper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 
+import cn.skunk.pojo.Permission;
+import com.alibaba.dubbo.config.annotation.Service;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Transactional;
+
+import java.util.List;
+
 @Service(interfaceClass = PermissionService.class)
 @Transactional
 public class PermissionServiceImpl implements PermissionService {
@@ -43,5 +50,14 @@ public class PermissionServiceImpl implements PermissionService {
             throw new RuntimeException("当前权限被引用,不能删除");
         }
         permissionDao.deleteById(id);
+        }
+    @Override
+    public List<Permission> findAll() {
+        return permissionDao.findAll();
+    }
+
+    @Override
+    public List<Permission> findCheckItemIdsByCheckGroupId(Integer id) {
+        return permissionDao.findCheckItemIdsByCheckGroupId(id);
     }
 }

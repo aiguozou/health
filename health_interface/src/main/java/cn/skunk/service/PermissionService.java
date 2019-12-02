@@ -1,8 +1,10 @@
 package cn.skunk.service;
-
+import java.util.List;
 import cn.skunk.entity.PageResult;
 import cn.skunk.entity.QueryPageBean;
 import cn.skunk.pojo.Permission;
+import cn.skunk.pojo.Permission;
+
 
 public interface PermissionService {
 
@@ -15,4 +17,9 @@ public interface PermissionService {
     void edit(Permission permission);
 
     void deleteById(Integer id);
+
+
+    List<Permission> findAll();
+
+    List<Permission> findCheckItemIdsByCheckGroupId(Integer id);
 }

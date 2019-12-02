@@ -3,6 +3,7 @@ package cn.skunk.dao;
 import cn.skunk.pojo.Permission;
 import com.github.pagehelper.Page;
 
+import java.util.List;
 import java.util.Set;
 
 public interface PermissionDao {
@@ -19,4 +20,9 @@ public interface PermissionDao {
     public long findCountById(Integer permissionId);
 
     public void deleteById(Integer id);
+    List<Permission> findAll();
+
+    List<Permission> findCheckItemIdsByCheckGroupId(Integer id);
+
+    int findCountById(Integer id);
 }

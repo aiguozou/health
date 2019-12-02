@@ -45,4 +45,14 @@
     <delete id="deleteById" parameterType="int">
         delete from t_permission where id=#{id}
     </delete>
+    <select id="findAll" resultType="cn.skunk.pojo.Permission">
+        select * from t_permission
+    </select>
+    <select id="findCheckItemIdsByCheckGroupId" parameterType="int" resultType="int">
+        select permission_id from t_role_permission where role_id=#{role_id}
+    </select>
+
+    <select id="findCountById" parameterType="int" resultType="int">
+        select count(*) from t_role_permission where role_id=#{role_id}
+    </select>
 </mapper>

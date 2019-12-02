@@ -22,6 +22,7 @@ public class UserServiceImpl implements UserService {
     @Autowired
     private PermissionDao permissionDao;
 
+    @Override
     public User findByUsername(String username) {
         User user = userDao.findByUsername(username);
         if (user==null) {
@@ -37,4 +38,5 @@ public class UserServiceImpl implements UserService {
         user.setRoles(roles);
         return user;
     }
+
 }
