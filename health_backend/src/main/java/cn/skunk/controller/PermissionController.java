@@ -4,7 +4,6 @@ import cn.skunk.constant.MessageConstant;
 import cn.skunk.entity.PageResult;
 import cn.skunk.entity.QueryPageBean;
 import cn.skunk.entity.Result;
-import cn.skunk.pojo.CheckItem;
 import cn.skunk.pojo.Permission;
 import cn.skunk.service.PermissionService;
 import com.alibaba.dubbo.config.annotation.Reference;
