@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c759899a-abf6-49e2-ac86-c2fe53be8ef9" name="Default Changelist" comment="" />
+    <list default="true" id="c759899a-abf6-49e2-ac86-c2fe53be8ef9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/health_backend/target/tomcat/logs/access_log.2019-12-02" beforeDir="false" afterPath="$PROJECT_DIR$/health_backend/target/tomcat/logs/access_log.2019-12-02" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/health_common/target/" />
@@ -671,7 +673,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575265562802" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575266144027" />
     <property name="js.last.introduce.type" value="VAR" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -856,7 +858,7 @@
       <workItem from="1575198656426" duration="1015000" />
       <workItem from="1575202524353" duration="47000" />
       <workItem from="1575202583506" duration="5762000" />
-      <workItem from="1575250589132" duration="12635000" />
+      <workItem from="1575250589132" duration="12637000" />
     </task>
     <servers />
   </component>
@@ -869,7 +871,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210946000" />
+    <option name="totallyTimeSpent" value="210948000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

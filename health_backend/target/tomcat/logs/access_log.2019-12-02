@@ -315,3 +315,10 @@
 0:0:0:0:0:0:0:1 - - [02/Dec/2019:12:59:07 +0800] "POST /permission/findPage.do HTTP/1.1" 200 528 http-bio-82-exec-8 20
 0:0:0:0:0:0:0:1 - - [02/Dec/2019:12:59:29 +0800] "POST /permission/findPage.do HTTP/1.1" 200 882 http-bio-82-exec-8 12
 0:0:0:0:0:0:0:1 - - [02/Dec/2019:12:59:30 +0800] "POST /permission/findPage.do HTTP/1.1" 200 931 http-bio-82-exec-8 16
+0:0:0:0:0:0:0:1 - - [02/Dec/2019:13:29:34 +0800] "GET /pages/permission.html HTTP/1.1" 302 - http-bio-82-exec-1 67
+0:0:0:0:0:0:0:1 - - [02/Dec/2019:13:29:34 +0800] "GET /login.html HTTP/1.1" 304 - http-bio-82-exec-3 4
+0:0:0:0:0:0:0:1 - - [02/Dec/2019:13:29:40 +0800] "POST /login.do HTTP/1.1" 302 - http-bio-82-exec-4 548
+0:0:0:0:0:0:0:1 - - [02/Dec/2019:13:29:40 +0800] "GET /login.html HTTP/1.1" 304 - http-bio-82-exec-5 1
+0:0:0:0:0:0:0:1 - - [02/Dec/2019:13:29:50 +0800] "POST /login.do HTTP/1.1" 302 - http-bio-82-exec-6 80
+0:0:0:0:0:0:0:1 - - [02/Dec/2019:13:29:50 +0800] "GET /pages/permission.html HTTP/1.1" 200 13462 http-bio-82-exec-8 12
+0:0:0:0:0:0:0:1 - - [02/Dec/2019:13:29:50 +0800] "POST /permission/findPage.do HTTP/1.1" 200 931 http-bio-82-exec-9 168
