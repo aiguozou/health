@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c759899a-abf6-49e2-ac86-c2fe53be8ef9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/health_backend/target/tomcat/logs/access_log.2019-12-02" beforeDir="false" afterPath="$PROJECT_DIR$/health_backend/target/tomcat/logs/access_log.2019-12-02" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_backend/src/main/webapp/pages/permission.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_backend/src/main/webapp/pages/security_permission.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -140,10 +140,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/permission.html">
+        <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/security_permission.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2714">
-              <caret line="258" column="17" lean-forward="true" selection-start-line="258" selection-start-column="17" selection-end-line="258" selection-end-column="17" />
+              <caret line="258" column="17" selection-start-line="258" selection-start-column="17" selection-end-line="258" selection-end-column="17" />
               <folding>
                 <element signature="n#style#0;n#el-input#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -154,8 +154,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14">
-              <caret line="183" column="19" selection-start-line="183" selection-start-column="19" selection-end-line="183" selection-end-column="19" />
+            <state relative-caret-position="714">
+              <caret line="211" column="25" lean-forward="true" selection-start-line="211" selection-start-column="25" selection-end-line="211" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -349,7 +349,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="637" />
     <option name="y" value="17" />
     <option name="width" value="1255" />
@@ -673,7 +673,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575266144027" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575266397493" />
     <property name="js.last.introduce.type" value="VAR" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -858,7 +858,7 @@
       <workItem from="1575198656426" duration="1015000" />
       <workItem from="1575202524353" duration="47000" />
       <workItem from="1575202583506" duration="5762000" />
-      <workItem from="1575250589132" duration="12637000" />
+      <workItem from="1575250589132" duration="13058000" />
     </task>
     <servers />
   </component>
@@ -871,7 +871,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210948000" />
+    <option name="totallyTimeSpent" value="211369000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -883,7 +883,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.23391421" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1282,10 +1282,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/permission.html">
+    <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/security_permission.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2714">
-          <caret line="258" column="17" lean-forward="true" selection-start-line="258" selection-start-column="17" selection-end-line="258" selection-end-column="17" />
+          <caret line="258" column="17" selection-start-line="258" selection-start-column="17" selection-end-line="258" selection-end-column="17" />
           <folding>
             <element signature="n#style#0;n#el-input#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -1294,8 +1294,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="183" column="19" selection-start-line="183" selection-start-column="19" selection-end-line="183" selection-end-column="19" />
+        <state relative-caret-position="714">
+          <caret line="211" column="25" lean-forward="true" selection-start-line="211" selection-start-column="25" selection-end-line="211" selection-end-column="25" />
         </state>
       </provider>
     </entry>
