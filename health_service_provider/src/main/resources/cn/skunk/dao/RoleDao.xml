@@ -5,4 +5,40 @@
     <select id="findByUserId" parameterType="int" resultType="cn.skunk.pojo.Role">
         SELECT r.* FROM t_role r,t_user_role ur WHERE r.id=ur.role_id AND ur.user_id=#{user_id}
     </select>
+    
+    <select id="findPage" parameterType="String" resultType="cn.skunk.pojo.Role">
+        select * from t_role
+        <where>
+            <if test="value!=null and value.length>0">
+                name=#{value} or keyword=#{value} or description=#{value}
+            </if>
+        </where>
+    </select>
+    <delete id="delete" parameterType="int">
+        delete from t_role_permission where role_id=#{role_id}
+    </delete>
+
+
+    <insert id="add" parameterType="cn.skunk.pojo.Role">
+        <selectKey resultType="java.lang.Integer" order="AFTER" keyProperty="id">
+            select LAST_INSERT_ID()
+        </selectKey>
+        insert into t_role values(null,#{name},#{keyword},#{description})
+    </insert>
+
+    <insert id="setRoleAndPermission" parameterType="map">
+        insert into t_role_permission(role_id,permission_id) values(#{role_id},#{permission_id})
+    </insert>
+
+    <delete id="deleteUser_RoleById" parameterType="int">
+        delete from t_user_role where role_id=#{role_id}
+    </delete>
+
+    <delete id="deleteRole_PermissionById" parameterType="int">
+        delete from t_role_permission where role_id=#{role_id}
+    </delete>
+
+    <delete id="deleteById" parameterType="int">
+        delete from t_role where id=#{id}
+    </delete>
 </mapper>

@@ -318,7 +318,7 @@
                         currentPage: this.pagination.currentPage,
                         pageSize: this.pagination.pageSize,
                         queryString: this.pagination.queryString
-                    }
+                    };
                     if (!(param.queryString == null||param.queryString=="")) {
                         param.currentPage=1;
                     }
@@ -329,7 +329,7 @@
                 },
                 // 重置表单
                 resetForm() {
-                    this.formData;
+                    this.formData={};
                 },
                 // 弹出添加窗口
                 handleCreate() {
