@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="cn.skunk.dao.CheckGroupDao">
+    <resultMap id="findByIdMap" type="cn.skunk.pojo.CheckGroup">
+        <id column="id" property="id"></id>
+        <result column="code" property="code"></result>
+        <result column="name" property="name"></result>
+        <result column="helpCode" property="helpCode"></result>
+        <result column="sex" property="sex"></result>
+        <result column="remark" property="remark"></result>
+        <result column="attention" property="attention"></result>
+    </resultMap>
+    
+    <resultMap id="findByIdResultMap" type="cn.skunk.pojo.CheckGroup" extends="findByIdMap">
+        <collection property="checkItems" column="id" ofType="cn.skunk.pojo.CheckGroup" javaType="ArrayList"
+                    select="cn.skunk.dao.CheckItemDao.findCheckItemById">
+        </collection>
+    </resultMap>
+
+    <insert id="add" parameterType="cn.skunk.pojo.CheckGroup">
+        <selectKey resultType="java.lang.Integer" order="AFTER" keyProperty="id">
+            select LAST_INSERT_ID()
+        </selectKey>
+        insert into t_checkgroup values(null,#{code},#{name},#{helpCode},#{sex},#{remark},#{attention})
+    </insert>
+
+    <insert id="setCheckGroupAndCheckItem" parameterType="map">
+        insert into t_checkgroup_checkitem(checkgroup_id,checkitem_id) values(#{checkGroupId},#{checkitemId})
+    </insert>
+
+    <select id="findPage" parameterType="String" resultType="cn.skunk.pojo.CheckGroup">
+        select * from t_checkgroup
+        <where>
+            <if test="value!=null and value.length>0">
+                code=#{value} or name=#{value} or helpCode=#{value}
+            </if>
+        </where>
+    </select>
+
+    <select id="findById" parameterType="int" resultType="cn.skunk.pojo.CheckGroup">
+        select * from t_checkgroup where id=#{id}
+    </select>
+
+    <select id="findCheckItemIdsByCheckGroupId" parameterType="int" resultType="int">
+        select checkitem_id from t_checkgroup_checkitem where checkgroup_id=#{checkgroup_id}
+    </select>
+
+    <update id="edit" parameterType="cn.skunk.pojo.CheckGroup">
+        update t_checkgroup
+        <set>
+            <if test="code!=null">
+                code=#{code},
+            </if>
+            <if test="name!=null">
+                name=#{name},
+            </if>
+            <if test="helpCode!=null">
+                helpCode=#{helpCode},
+            </if>
+            <if test="sex!=null">
+                sex=#{sex},
+            </if>
+            <if test="remark!=null">
+                remark=#{remark},
+            </if>
+            <if test="attention!=null">
+                attention=#{attention},
+            </if>
+        </set>
+        where id=#{id}
+    </update>
+
+    <delete id="delete" parameterType="int">
+        delete from t_checkgroup_checkitem where checkgroup_id=#{checkgroup_id}
+    </delete>
+
+    <select id="findAll" resultType="cn.skunk.pojo.CheckGroup">
+        select * from t_checkgroup
+    </select>
+    
+    <select id="findCheckGroupById" resultMap="findByIdResultMap">
+        SELECT * FROM t_checkgroup WHERE id IN(SELECT checkgroup_id FROM t_setmeal_checkgroup WHERE setmeal_id=#{setmeal_id})
+    </select>
+ </mapper>

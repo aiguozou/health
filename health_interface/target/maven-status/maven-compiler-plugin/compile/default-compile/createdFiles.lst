@@ -1,0 +1,9 @@
+cn\skunk\service\PermissionService.class
+cn\skunk\service\UserService.class
+cn\skunk\service\SetmealService.class
+cn\skunk\service\MemberService.class
+cn\skunk\service\CheckItemService.class
+cn\skunk\service\ReportService.class
+cn\skunk\service\OrderSettingService.class
+cn\skunk\service\CheckGroupService.class
+cn\skunk\service\OrderService.class

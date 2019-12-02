@@ -1,0 +1,8 @@
+cn\skunk\controller\SetmealController.class
+cn\skunk\controller\OrderSettingController.class
+cn\skunk\controller\PermissionController.class
+cn\skunk\controller\ReportController.class
+cn\skunk\controller\CheckItemController.class
+cn\skunk\controller\CheckGroupController.class
+cn\skunk\controller\UserController.class
+cn\skunk\service\SpringSecurityUserService.class
