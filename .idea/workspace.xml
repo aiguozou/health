@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c759899a-abf6-49e2-ac86-c2fe53be8ef9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_backend/src/main/webapp/pages/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_backend/src/main/webapp/pages/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_backend/target/health_backend-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/health_backend/target/health_backend-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_backend/target/health_backend-1.0-SNAPSHOT/WEB-INF/lib/health_interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/health_backend/target/health_backend-1.0-SNAPSHOT/WEB-INF/lib/health_interface-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_backend/target/health_backend-1.0-SNAPSHOT/pages/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_backend/target/health_backend-1.0-SNAPSHOT/pages/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_backend/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health_backend/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_interface/target/health_interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/health_interface/target/health_interface-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/health_interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_jobs/target/health_jobs-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/health_jobs/target/health_jobs-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_jobs/target/health_jobs-1.0-SNAPSHOT/WEB-INF/lib/health_interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/health_jobs/target/health_jobs-1.0-SNAPSHOT/WEB-INF/lib/health_interface-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_jobs/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health_jobs/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_mobile/target/health_mobile-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/health_mobile/target/health_mobile-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_mobile/target/health_mobile-1.0-SNAPSHOT/WEB-INF/lib/health_interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/health_mobile/target/health_mobile-1.0-SNAPSHOT/WEB-INF/lib/health_interface-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_mobile/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health_mobile/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_service_provider/target/health_service_provider-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/health_service_provider/target/health_service_provider-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_service_provider/target/health_service_provider-1.0-SNAPSHOT/WEB-INF/lib/health_interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/health_service_provider/target/health_service_provider-1.0-SNAPSHOT/WEB-INF/lib/health_interface-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_service_provider/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/health_service_provider/target/maven-archiver/pom.properties" afterDir="false" />
-    </list>
+    <list default="true" id="c759899a-abf6-49e2-ac86-c2fe53be8ef9" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/health_common/target/" />
@@ -159,8 +141,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/security_permission.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="201" column="59" lean-forward="true" selection-start-line="201" selection-start-column="59" selection-end-line="201" selection-end-column="59" />
+            <state relative-caret-position="-350">
+              <caret line="88" column="39" selection-start-line="88" selection-start-column="39" selection-end-line="88" selection-end-column="39" />
               <folding>
                 <element signature="n#style#0;n#el-input#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -180,7 +162,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/PermissionController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1250">
+            <state relative-caret-position="328">
               <caret line="60" column="39" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -204,8 +186,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/PermissionDao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+            <state relative-caret-position="-97">
+              <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -362,7 +344,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="636" />
     <option name="y" value="16" />
     <option name="width" value="1255" />
@@ -686,7 +668,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575269316522" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575271512014" />
     <property name="js.last.introduce.type" value="VAR" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -872,7 +854,7 @@
       <workItem from="1575202524353" duration="47000" />
       <workItem from="1575202583506" duration="5762000" />
       <workItem from="1575250589132" duration="13097000" />
-      <workItem from="1575266926170" duration="2208000" />
+      <workItem from="1575266926170" duration="4546000" />
     </task>
     <servers />
   </component>
@@ -885,7 +867,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="213616000" />
+    <option name="totallyTimeSpent" value="215954000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -897,10 +879,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.23726542" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.23726542" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1230,16 +1212,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/PermissionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1250">
-          <caret line="60" column="39" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/service/PermissionServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
@@ -1250,13 +1222,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/PermissionDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
@@ -1264,10 +1229,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/PermissionDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-97">
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/PermissionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="60" column="39" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/security_permission.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="201" column="59" lean-forward="true" selection-start-line="201" selection-start-column="59" selection-end-line="201" selection-end-column="59" />
+        <state relative-caret-position="-350">
+          <caret line="88" column="39" selection-start-line="88" selection-start-column="39" selection-end-line="88" selection-end-column="39" />
           <folding>
             <element signature="n#style#0;n#el-input#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
