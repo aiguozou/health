@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c759899a-abf6-49e2-ac86-c2fe53be8ef9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_backend/health_backend.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_backend/src/main/webapp/plugins/font-awesome/css/font-awesome.min(1).css" beforeDir="false" afterPath="$PROJECT_DIR$/health_backend/src/main/webapp/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_common/health_common.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_common/src/main/java/cn/skunk/constant/MessageConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_common/src/main/java/cn/skunk/constant/MessageConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_interface/health_interface.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_mobile/health_mobile.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_service_provider/health_service_provider.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/dao/PermissionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/dao/PermissionDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/PermissionDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/PermissionDao.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c759899a-abf6-49e2-ac86-c2fe53be8ef9" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/health_common/target/" />
@@ -683,7 +671,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575265461581" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575265562802" />
     <property name="js.last.introduce.type" value="VAR" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -868,7 +856,7 @@
       <workItem from="1575198656426" duration="1015000" />
       <workItem from="1575202524353" duration="47000" />
       <workItem from="1575202583506" duration="5762000" />
-      <workItem from="1575250589132" duration="12491000" />
+      <workItem from="1575250589132" duration="12635000" />
     </task>
     <servers />
   </component>
@@ -881,7 +869,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210802000" />
+    <option name="totallyTimeSpent" value="210946000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -893,7 +881,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.23391421" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
