@@ -1,4 +1,5 @@
 package cn.skunk.constant;
+
 /**
  * 消息常量
  */
@@ -11,6 +12,8 @@ public class MessageConstant {
     public static final String EDIT_CHECKITEM_SUCCESS = "编辑检查项成功";
     public static final String QUERY_CHECKITEM_SUCCESS = "查询检查项成功";
     public static final String QUERY_CHECKITEM_FAIL = "查询检查项失败";
+    public static final String QUERY_MEMBER_FAIL = "查询会员信息失败";
+    public static final String QUERY_MEMBER_SUCCESS = "查询会员信息成功";
     public static final String UPLOAD_SUCCESS = "上传成功";
     public static final String ADD_CHECKGROUP_FAIL = "新增检查组失败";
     public static final String ADD_CHECKGROUP_SUCCESS = "新增检查组成功";
@@ -36,6 +39,8 @@ public class MessageConstant {
     public static final String DELETE_MEMBER_SUCCESS = "删除会员成功";
     public static final String EDIT_MEMBER_FAIL = "编辑会员失败";
     public static final String EDIT_MEMBER_SUCCESS = "编辑会员成功";
+    public static final String GET_MEMBER_SUCCESS = "获取会员信息成功";
+    public static final String GET_MEMBER_FAIL = "获取会员信息失败";
     public static final String TELEPHONE_VALIDATECODE_NOTNULL = "手机号和验证码都不能为空";
     public static final String LOGIN_SUCCESS = "登录成功";
     public static final String VALIDATECODE_ERROR = "验证码输入错误";
