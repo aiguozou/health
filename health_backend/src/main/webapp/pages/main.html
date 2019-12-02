@@ -190,6 +190,31 @@
                             "children": []
                         }
                     ]
+                },
+                {
+                    "path": "6",     //菜单项所对应的路由路径
+                    "title": "权限管理",     //菜单项名称
+                    "icon":"fa-heartbeat",
+                    "children":[//是否有子菜单，若没有，则为[]
+                        {
+                            "path": "/6-1",
+                            "title": "用户管理",
+                            "linkUrl":"security_User.html",
+                            "children":[]
+                        },
+                        {
+                            "path": "/6-2",
+                            "title": "角色管理",
+                            "linkUrl":"security_Role.html",
+                            "children":[]
+                        },
+                        {
+                            "path": "/6-3",
+                            "title": "权限管理",
+                            "linkUrl":"security_permission.html",
+                            "children":[]
+                        },
+                    ]
                 }
             ]
         },
