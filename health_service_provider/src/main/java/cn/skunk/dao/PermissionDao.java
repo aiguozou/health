@@ -17,7 +17,7 @@ public interface PermissionDao {
 
     void edit(Permission permission);
 
-    public long findCountById(Integer permissionId);
+    public long findCountByPermissionId(Integer permissionId);
 
     public void deleteById(Integer id);
     List<Permission> findAll();

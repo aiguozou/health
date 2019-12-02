@@ -10,10 +10,6 @@ import com.github.pagehelper.PageHelper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 
-import cn.skunk.pojo.Permission;
-import com.alibaba.dubbo.config.annotation.Service;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -45,7 +41,7 @@ public class PermissionServiceImpl implements PermissionService {
     }
 
     public void deleteById(Integer id) {
-        long count = permissionDao.findCountById(id);
+        long count = permissionDao.findCountByPermissionId(id);
         if (count>0) {
             throw new RuntimeException("当前权限被引用,不能删除");
         }

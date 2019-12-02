@@ -87,12 +87,6 @@ public class MessageConstant {
     public static final String DELETE_PERMISSION_FAIL = "删除权限失败";
     public static final String DELETE_PERMISSION_SUCCESS = "删除权限成功";
 
-    public static final String DELETE_ADDRESS_SUCCESS = "删除地址成功";
-    public static final String DELETE_ADDRESS_FAIL = "删除地址失败";
-    public static final String QUERY_ADDRESS_SUCCESS = "查询地址成功";
-    public static final String QUERY_ADDRESS_FAIL = "查询地址失败";
-    public static final String ADD_ADDRESS_SUCCESS= "添加地址成功";
-    public static final String ADD_ADDRESS_FAIL = "添加地址失败";
 
 
 
