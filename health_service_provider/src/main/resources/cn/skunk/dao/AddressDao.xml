@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.skunk.dao.AddressDao">
+    <insert id="add" parameterType="cn.skunk.pojo.Address">
+  INSERT INTO `t_company_address` (companyName,longitude,latitude)
+   VALUES
+   (#{companyName},#{longitude}, #{latitude})
+    </insert>
+    <delete id="deleteById">
+        delete from t_company_address where id=#{value}
+    </delete>
+    <select id="findAll" resultType="cn.skunk.pojo.Address">
+             SELECT * FROM `t_company_address`
+    </select>
+    <select id="findPage" resultType="cn.skunk.pojo.Address">
+        select * from `t_company_address`
+        <where>
+            <if test="value!=null and value.length>0">
+                companyName LIKE '%${value}%'
+            </if>
+        </where>
+    </select>
+</mapper>
