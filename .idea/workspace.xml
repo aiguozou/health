@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c759899a-abf6-49e2-ac86-c2fe53be8ef9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/health_backend/src/main/webapp/pages/permission.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_backend/src/main/webapp/pages/security_permission.html" afterDir="false" />
-    </list>
+    <list default="true" id="c759899a-abf6-49e2-ac86-c2fe53be8ef9" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/health_common/target/" />
@@ -96,7 +94,7 @@
     <session id="1778379745">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.opened" value="3" />
@@ -350,8 +348,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="637" />
-    <option name="y" value="17" />
+    <option name="x" value="636" />
+    <option name="y" value="16" />
     <option name="width" value="1255" />
     <option name="height" value="1025" />
   </component>
@@ -673,7 +671,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575266397493" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575266818585" />
     <property name="js.last.introduce.type" value="VAR" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -858,7 +856,7 @@
       <workItem from="1575198656426" duration="1015000" />
       <workItem from="1575202524353" duration="47000" />
       <workItem from="1575202583506" duration="5762000" />
-      <workItem from="1575250589132" duration="13058000" />
+      <workItem from="1575250589132" duration="13097000" />
     </task>
     <servers />
   </component>
@@ -871,7 +869,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211369000" />
+    <option name="totallyTimeSpent" value="211408000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
