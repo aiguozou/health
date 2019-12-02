@@ -68,6 +68,14 @@ public class MessageConstant {
     public static final String GET_BUSINESS_REPORT_FAIL = "获取运营统计数据失败";
     public static final String GET_SETMEAL_LIST_SUCCESS = "查询套餐列表数据成功";
     public static final String GET_SETMEAL_LIST_FAIL = "查询套餐列表数据失败";
+    public static final String DELETE_ADDRESS_SUCCESS = "删除地址成功";
+    public static final String DELETE_ADDRESS_FAIL = "删除地址失败";
+    public static final String QUERY_ADDRESS_SUCCESS = "查询地址成功";
+    public static final String QUERY_ADDRESS_FAIL = "查询地址失败";
+    public static final String ADD_ADDRESS_SUCCESS= "添加地址成功";
+    public static final String ADD_ADDRESS_FAIL = "添加地址失败";
+
+
 
     public static final String ADD_PERMISSION_SUCCESS = "新增权限成功";
     public static final String ADD_PERMISSION_FAIL = "新增权限失败";
