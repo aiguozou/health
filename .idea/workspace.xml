@@ -1,23 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c759899a-abf6-49e2-ac86-c2fe53be8ef9" name="Default Changelist" comment="添加了会员管理的功能，包括对会员的：&#10;新增、修改、查询/条件查询、删除">
-      <change afterPath="$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/MemberPCController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_backend/src/main/webapp/pages/member.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_interface/src/main/java/cn/skunk/service/MemberPCService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/dao/MemberPCDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/service/MemberPCServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/MemberPCDao.xml" afterDir="false" />
+    <list default="true" id="c759899a-abf6-49e2-ac86-c2fe53be8ef9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_backend/health_backend.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_backend/src/main/webapp/pages/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_backend/src/main/webapp/pages/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_backend/src/main/webapp/plugins/font-awesome/css/font-awesome.min(1).css" beforeDir="false" afterPath="$PROJECT_DIR$/health_backend/src/main/webapp/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_common/health_common.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_common/src/main/java/cn/skunk/constant/MessageConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_common/src/main/java/cn/skunk/constant/MessageConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_interface/health_interface.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_mobile/health_mobile.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_service_provider/health_service_provider.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -189,8 +174,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/service/MemberPCServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="53" column="40" lean-forward="true" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
+            <state relative-caret-position="700">
+              <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1287#1288#0" expanded="true" />
@@ -229,7 +214,7 @@
         <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/MemberPCController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="8">
-              <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+              <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -379,7 +364,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="107" />
     <option name="y" value="1" />
     <option name="width" value="1255" />
@@ -432,6 +417,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="skunk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="health" type="b2602c69:ProjectViewProjectNode" />
+              <item name="health" type="462c0819:PsiDirectoryNode" />
+              <item name="health_backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="skunk" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="health" type="b2602c69:ProjectViewProjectNode" />
@@ -828,6 +823,14 @@
       <workItem from="1575207366575" duration="763000" />
       <workItem from="1575250642111" duration="22310000" />
     </task>
+    <task id="LOCAL-00001" summary="添加了会员管理的功能，包括对会员的：&#10;新增、修改、查询/条件查询、删除">
+      <created>1575277329661</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575277329661</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -839,7 +842,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216205000" />
+    <option name="totallyTimeSpent" value="218633000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -852,7 +855,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2062982" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -864,15 +866,15 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2884097" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993573" weight="0.2884097" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32884097" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32956153" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3201133" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32884097" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="9" sideWeight="0.50064266" side_tool="true" visible="true" weight="0.2884097" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4993573" weight="0.32884097" />
       <window_info anchor="bottom" id="Spring" order="11" weight="0.32956153" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32956153" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32884097" />
@@ -1270,7 +1272,7 @@
     <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/MemberPCController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8">
-          <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1279,8 +1281,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/service/MemberPCServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="53" column="40" lean-forward="true" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
+        <state relative-caret-position="700">
+          <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1287#1288#0" expanded="true" />
