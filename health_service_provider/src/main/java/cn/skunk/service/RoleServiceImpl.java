@@ -13,6 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @Service(interfaceClass = RoleService.class)
@@ -76,5 +77,9 @@ public class RoleServiceImpl implements RoleService {
         }
 
         roleDao.deleteById(id);
+    }
+    @Override
+    public List<Role> findAll() {
+        return roleDao.findAll();
     }
 }

@@ -1,5 +1,6 @@
 package cn.skunk.controller;
 
+import cn.skunk.constant.MessageConstant;
 import cn.skunk.entity.PageResult;
 import cn.skunk.entity.QueryPageBean;
 import cn.skunk.entity.Result;
@@ -12,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Arrays;
+import java.util.List;
 
 @RestController
 @RequestMapping("/role")
@@ -54,5 +56,15 @@ public class RoleController {
             return new Result(false,"删除角色失败");
         }
         return new Result(true,"删除角色成功");
+    }
+    @RequestMapping("/findAll")
+    public Result findAll(){
+        try {
+            List<Role> roleList = roleService.findAll();
+            return new Result(true, MessageConstant.QUERY_CHECKGROUP_SUCCESS,roleList);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return new Result(false, MessageConstant.QUERY_CHECKGROUP_FAIL);
+        }
     }
 }

@@ -87,4 +87,13 @@ public class MessageConstant {
     public static final String VALIDATEADDRESSNAME_ERROR = "地址输入错误";
 
 
+    public static final String ADD_USERINFO_FAIL = "添加用户信息失败";
+    public static final String ADD_USERINFO_SUCCESS = "添加用户信息成功";
+    public static final String QUERY_USERINFO_SUCCESS = "查询用户信息成功";
+    public static final String QUERY_USERINFO_FAIL = "查询用户信息成功";
+    public static final String EDIT_USERINFO_FAIL ="修改用户信息失败";
+    public static final String EDIT_USERINFO_SUCCESS ="修改用户信息成功";
+    public static final String DELETE_USERINFO_FAIL ="删除用户信息失败";
+    public static final String DELETE_USERINFO_SUCCESS = "删除用户信息成功";
+
 }

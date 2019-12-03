@@ -41,4 +41,7 @@
     <delete id="deleteById" parameterType="int">
         delete from t_role where id=#{id}
     </delete>
+    <select id="findAll" resultType="cn.skunk.pojo.Role">
+        select *from t_role
+    </select>
 </mapper>

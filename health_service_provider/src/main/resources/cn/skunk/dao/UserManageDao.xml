@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="cn.skunk.dao.UserManageDao">
+    <insert id="add" parameterType="cn.skunk.pojo.User">
+
+        <selectKey resultType="java.lang.Integer" order="AFTER" keyProperty="id">
+            select LAST_INSERT_ID()
+        </selectKey>
+        insert into t_user values(null,#{birthday},#{gender},#{username},#{password},#{remark},#{station},#{telephone})
+    </insert>
+    <insert id="setUserAndRole" parameterType="map">
+        insert into t_user_role (user_id,role_id) values(#{userid},#{roleid})
+    </insert>
+    <select id="findPage" parameterType="String" resultType="cn.skunk.pojo.User">
+        select * from t_user
+            <if test="value!=null and value.length>0">
+                where id=#{value} or username=#{value}
+            </if>
+    </select>
+    <select id="findById" parameterType="int" resultType="cn.skunk.pojo.User">
+        select * from t_user where id=#{id}
+    </select>
+    <select id="findUserIdsByUserId" parameterType="int" resultType="int">
+        select role_id from t_user_role  where user_id=#{user_id}
+    </select>
+    <update id="edit" parameterType="cn.skunk.pojo.User">
+        update t_user
+        <set>
+
+            <if test="birthday!=null">
+                birthday=#{birthday},
+            </if>
+            <if test="gender!=null">
+                gender=#{gender},
+            </if>
+            <if test="username!=null">
+                username=#{username},
+            </if>
+            <if test="password!=null">
+                password=#{password},
+            </if>
+            <if test="remark!=null">
+                remark=#{remark},
+            </if>
+            <if test="station!=null">
+                station=#{station},
+            </if>
+            <if test="telephone!=null">
+                telephone=#{telephone},
+            </if>
+        </set>
+        where id=#{id}
+    </update>
+    <delete id="delete" parameterType="int">
+        delete from t_user_role where user_id=#{user_id}
+    </delete>
+    <select id="findAll" resultType="cn.skunk.pojo.User">
+        select * from t_user
+    </select>
+    <select id="findCountById" parameterType="int" resultType="long">
+        select count(*) from t_user_role where user_id=#{user_id}
+    </select>
+    <delete id="deleteById" parameterType="int">
+        delete from t_user where id=#{id}
+    </delete>
+</mapper>
