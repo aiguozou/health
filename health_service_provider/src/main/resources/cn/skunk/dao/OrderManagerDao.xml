@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="cn.skunk.dao.OrderManagerDao">
+
+    <select id="findPage" parameterType="String" resultType="cn.skunk.pojo.OrderManager">
+        SELECT o.*,m.name,m.phoneNumber FROM t_order as o,t_member as m
+        <where>
+            o.member_id = m.id
+            <if test="value!=null and value.length>0">
+                and (m.name=#{value} or m.phoneNumber=#{value})
+            </if>
+        </where>
+    </select>
+
+    <update id="orderOk" parameterType="int">
+        UPDATE t_order SET orderStatus = '未到诊' WHERE id = #{id};
+    </update>
+
+    <delete id="orderCancle" parameterType="int">
+        delete from t_order where id = #{id}
+    </delete>
+
+ </mapper>
