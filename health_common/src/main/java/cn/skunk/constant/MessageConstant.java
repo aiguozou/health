@@ -87,6 +87,8 @@ public class MessageConstant {
     public static final String DELETE_PERMISSION_FAIL = "删除权限失败";
     public static final String DELETE_PERMISSION_SUCCESS = "删除权限成功";
 
+    public static final String QUERY_MENU_SUCCESS = "查询菜单成功";
+    public static final String QUERY_MENU_FAIL = "查询菜单失败";
 
 
 
