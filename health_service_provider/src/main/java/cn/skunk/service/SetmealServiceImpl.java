@@ -27,25 +27,25 @@ public class SetmealServiceImpl implements SetmealService {
     public void add(Setmeal setmeal, Integer[] checkgroupIds) {
         setmealDao.add(setmeal);
         Integer setmealId = setmeal.getId();
-        if (checkgroupIds!=null&&checkgroupIds.length>0) {
+        if (checkgroupIds != null && checkgroupIds.length > 0) {
             for (Integer checkgroupId : checkgroupIds) {
-                Map<String,Integer> map=new HashMap<>();
-                map.put("setmealId",setmealId);
-                map.put("checkgroupId",checkgroupId);
+                Map<String, Integer> map = new HashMap<>();
+                map.put("setmealId", setmealId);
+                map.put("checkgroupId", checkgroupId);
                 setmealDao.setSetmealAndCheckGroup(map);
             }
         }
         String fileName = setmeal.getImg();
-        jedisPool.getResource().sadd(RedisConstant.SETMEAL_PIC_DB_RESOURCES,fileName);
+        jedisPool.getResource().sadd(RedisConstant.SETMEAL_PIC_DB_RESOURCES, fileName);
     }
 
     public PageResult findPage(QueryPageBean queryPageBean) {
         Integer currentPage = queryPageBean.getCurrentPage();
         Integer pageSize = queryPageBean.getPageSize();
         String queryString = queryPageBean.getQueryString();
-        PageHelper.startPage(currentPage,pageSize);
+        PageHelper.startPage(currentPage, pageSize);
         Page<Setmeal> page = setmealDao.findPage(queryString);
-        return new PageResult(page.getTotal(),page.getResult());
+        return new PageResult(page.getTotal(), page.getResult());
     }
 
     public List<Setmeal> findAll() {

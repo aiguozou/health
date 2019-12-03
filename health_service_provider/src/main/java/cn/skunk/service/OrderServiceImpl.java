@@ -13,6 +13,7 @@ import com.alibaba.dubbo.config.annotation.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
@@ -54,6 +55,8 @@ public class OrderServiceImpl implements OrderService {
         }else {
             //4、检查当前用户是否为会员，如果是会员则直接完成预约，如果不是会员则自动完成注册并进行预约
             member=new Member();
+            String fileNumber = new SimpleDateFormat("yyyyMMddHHmmssSSS").format(new Date());
+            member.setFileNumber(fileNumber);
             member.setName((String) map.get("name"));
             member.setPhoneNumber(telephone);
             member.setIdCard((String) map.get("idCard"));
@@ -63,11 +66,13 @@ public class OrderServiceImpl implements OrderService {
         }
         //5、预约成功，更新当日的已预约人数
         Order order=new Order();
+        order.setAddressName((String) map.get("addressName"));
         order.setMemberId(member.getId());//设置会员ID
         order.setOrderDate(DateUtils.parseString2Date(orderDate));//预约日期
         order.setOrderType((String) map.get("orderType"));//预约类型
         order.setOrderStatus(Order.ORDERSTATUS_NO);//到诊状态
         order.setSetmealId(Integer.parseInt((String) map.get("setmealId")));
+
         orderDao.add(order);
         orderSetting.setReservations(orderSetting.getReservations()+1);
         orderSettingDao.editReservationsByOrderDate(orderSetting);

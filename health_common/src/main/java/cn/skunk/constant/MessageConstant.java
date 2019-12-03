@@ -75,9 +75,6 @@ public class MessageConstant {
     public static final String ADD_ADDRESS_SUCCESS= "添加地址成功";
     public static final String ADD_ADDRESS_FAIL = "添加地址失败";
 
-
-
-
     public static final String ADD_PERMISSION_SUCCESS = "新增权限成功";
     public static final String ADD_PERMISSION_FAIL = "新增权限失败";
     public static final String EDIT_PERMISSION_SUCCESS = "编辑权限成功";
@@ -87,7 +84,7 @@ public class MessageConstant {
     public static final String DELETE_PERMISSION_FAIL = "删除权限失败";
     public static final String DELETE_PERMISSION_SUCCESS = "删除权限成功";
 
-
+    public static final String VALIDATEADDRESSNAME_ERROR = "地址输入错误";
 
 
 }

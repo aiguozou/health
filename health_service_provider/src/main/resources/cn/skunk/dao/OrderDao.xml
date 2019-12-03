@@ -15,8 +15,8 @@
         <selectKey resultType="java.lang.Integer" order="AFTER" keyProperty="id">
             SELECT LAST_INSERT_ID()
         </selectKey>
-        insert into t_order(member_id,orderDate,orderType,orderStatus,setmeal_id)
-        values (#{memberId},#{orderDate},#{orderType},#{orderStatus},#{setmealId})
+        insert into t_order(member_id,orderDate,orderType,orderStatus,setmeal_id,addressName)
+        values (#{memberId},#{orderDate},#{orderType},#{orderStatus},#{setmealId},#{addressName})
     </insert>
 
     <!--动态条件查询-->
@@ -46,9 +46,9 @@
 
     <!--根据预约id查询预约信息，包括体检人信息、套餐信息-->
     <select id="findById4Detail" parameterType="int" resultType="map">
-       select m.name member,s.name setmeal,o.orderDate orderDate,o.orderType orderType
-       from t_order o, t_member m,t_setmeal s
-       where o.member_id=m.id and o.setmeal_id=s.id and o.id=#{id}
+       SELECT m.name member,s.name setmeal,o.orderDate orderDate,o.orderType orderType ,o.`addressName` addressName
+       FROM t_order o, t_member m,t_setmeal s
+       WHERE o.member_id=m.id AND o.setmeal_id=s.id AND o.id=#{id}
     </select>
 
     <!--根据日期统计预约数-->

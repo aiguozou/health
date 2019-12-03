@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import redis.clients.jedis.JedisPool;
 
+import java.io.UnsupportedEncodingException;
 import java.util.Map;
 
 @RestController
@@ -25,22 +26,27 @@ public class OrderController {
     private OrderService orderService;
 
     @RequestMapping("/submit")
-    public Result submit(@RequestBody Map map){
+    public Result submit(@RequestBody Map map, String addressName) throws UnsupportedEncodingException {
+        addressName = new String(addressName.getBytes("iso-8859-1"), "utf-8");
+        if (addressName == null || "选择体检地址".equals(addressName)) {
+            return new Result(false, MessageConstant.VALIDATEADDRESSNAME_ERROR);
+        }
+        map.put("addressName", addressName);
         String telephone = (String) map.get("telephone");
         String codeInRedis = jedisPool.getResource().get(telephone + RedisMessageConstant.SENDTYPE_ORDER);
         String validateCode = (String) map.get("validateCode");
-        if (codeInRedis!=null&&validateCode!=null&&codeInRedis.equals(validateCode)){
-            map.put("orderType",Order.ORDERTYPE_WEIXIN);
-            Result result =null;
+        if (codeInRedis != null && validateCode != null && codeInRedis.equals(validateCode)) {
+            map.put("orderType", Order.ORDERTYPE_WEIXIN);
+            Result result = null;
             try {
                 result = orderService.order(map);
             } catch (Exception e) {
                 e.printStackTrace();
                 return result;
             }
-            if (result.isFlag()){
+            if (result.isFlag()) {
                 try {
-                    SMSUtils.sendShortMessage(SMSUtils.ORDER_NOTICE,telephone, (String) map.get("orderDate"));
+                    SMSUtils.sendShortMessage(SMSUtils.ORDER_NOTICE, telephone, (String) map.get("orderDate"));
                 } catch (ClientException e) {
                     e.printStackTrace();
                 }
@@ -50,14 +56,15 @@ public class OrderController {
             return new Result(false, MessageConstant.VALIDATECODE_ERROR);
         }
     }
+
     @RequestMapping("/findById")
-    public Result findById(Integer id){
+    public Result findById(Integer id) {
         try {
-            Map map=orderService.findById(id);
-            return new Result(true,MessageConstant.QUERY_ORDER_SUCCESS,map);
+            Map map = orderService.findById(id);
+            return new Result(true, MessageConstant.QUERY_ORDER_SUCCESS, map);
         } catch (Exception e) {
             e.printStackTrace();
-            return new Result(false,MessageConstant.QUERY_ORDER_FAIL);
+            return new Result(false, MessageConstant.QUERY_ORDER_FAIL);
         }
     }
 }
