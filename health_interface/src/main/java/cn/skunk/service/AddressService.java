@@ -5,6 +5,7 @@ import cn.skunk.entity.QueryPageBean;
 import cn.skunk.pojo.Address;
 
 import java.util.ArrayList;
+import java.util.List;
 
 
 public interface AddressService {
@@ -15,4 +16,6 @@ public interface AddressService {
     void deleteById(Integer id);
 
     void add(Address address);
+
+    List<String> findAddressNames();
 }

@@ -21,4 +21,8 @@
             </if>
         </where>
     </select>
+
+    <select id="findAddressNames" resultType="java.lang.String">
+                     SELECT companyName FROM `t_company_address`
+    </select>
 </mapper>

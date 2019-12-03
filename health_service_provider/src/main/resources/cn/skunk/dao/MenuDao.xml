@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="cn.skunk.dao.MenuDao">
+<resultMap id="findPageMap" type="cn.skunk.pojo.Menu" autoMapping="true">
+    <id column="id" property="id"/>
+    <collection property="children" column="id" ofType="cn.skunk.pojo.Menu" javaType="ArrayList"
+                select="cn.skunk.dao.MenuDao.findMenuById"></collection>
+</resultMap>
+    <select id="findPage" parameterType="string" resultMap="findPageMap">
+        select * from t_menu
+        <where>
+            <if test="value!=null and value.length>0">
+                name=#{value}
+            </if>
+        </where>
+    </select>
+
+    <select id="findMenuById" resultType="cn.skunk.pojo.Menu">
+      SELECT * FROM t_menu WHERE parentMenuId=#{parentMenuId}
+    </select>
+
+    <select id="findAll" resultType="cn.skunk.pojo.Menu">
+        select * from t_menu
+    </select>
+ </mapper>

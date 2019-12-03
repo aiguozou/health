@@ -4,6 +4,8 @@ import cn.skunk.entity.PageResult;
 import cn.skunk.entity.QueryPageBean;
 import cn.skunk.pojo.Role;
 
+import java.util.List;
+
 public interface RoleService {
     PageResult findPage(QueryPageBean queryPageBean);
 
@@ -12,4 +14,6 @@ public interface RoleService {
     void add(Role role, Integer[] permissionIds);
 
     void deleteById(Integer id);
+
+    List<Role> findAll();
 }
