@@ -23,6 +23,13 @@
       <change beforePath="$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/UserDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health_service_provider/src/main/resources/spring-redis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_service_provider/src/main/resources/spring-redis.xml" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/health_common/target/" />
+    <ignored path="$PROJECT_DIR$/health_interface/target/" />
+    <ignored path="$PROJECT_DIR$/health_backend/target/" />
+    <ignored path="$PROJECT_DIR$/health_jobs/target/" />
+    <ignored path="$PROJECT_DIR$/health_service_provider/target/" />
+    <ignored path="$PROJECT_DIR$/health_mobile/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,18 +64,34 @@
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="17" />
+          <entry key="xml" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="17" />
+          <entry key="XML" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/PermissionController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -76,40 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/service/PermissionServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="47" column="43" lean-forward="true" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#895#896#0" expanded="true" />
-                <element signature="e#940#941#0" expanded="true" />
-                <element signature="e#1418#1419#0" expanded="true" />
-                <element signature="e#1467#1468#0" expanded="true" />
-                <element signature="e#1514#1515#0" expanded="true" />
-                <element signature="e#1560#1561#0" expanded="true" />
-                <element signature="e#1847#1848#0" expanded="true" />
-                <element signature="e#1893#1894#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/dao/PermissionDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/PermissionDao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="42" column="82" selection-start-line="42" selection-start-column="69" selection-end-line="42" selection-end-column="82" />
+            <state relative-caret-position="275">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -133,6 +124,10 @@
       <list>
         <option value="$PROJECT_DIR$/health_common/src/main/java/cn/skunk/constant/MessageConstant.java" />
         <option value="$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/AddressController.java" />
+        <option value="$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/dao/PermissionDao.java" />
+        <option value="$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/PermissionDao.xml" />
+        <option value="$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/service/PermissionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/PermissionController.java" />
       </list>
     </option>
   </component>
@@ -149,6 +144,13 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\MAVEN\repository_boot" />
+        <option name="mavenHome" value="D:/MAVEN/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\MAVEN\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="lookForNested" value="true" />
@@ -173,6 +175,11 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="health_parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="health_service_provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -190,7 +197,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-5" />
     <option name="y" value="10" />
     <option name="width" value="1255" />
@@ -205,321 +212,20 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
+              <item name="health_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="health" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="skunk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="skunk" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="skunk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="skunk" type="462c0819:PsiDirectoryNode" />
-              <item name="constant" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="skunk" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="skunk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="skunk" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_service_provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_service_provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_service_provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_service_provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_service_provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_service_provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="skunk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_service_provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="skunk" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_service_provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="skunk" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_service_provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_service_provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_service_provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="skunk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_service_provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="skunk" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -527,11 +233,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575294445127" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575294603079" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.28311688" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -673,6 +380,7 @@
       <updated>1575205181587</updated>
       <workItem from="1575205184192" duration="2141000" />
       <workItem from="1575249829964" duration="33350000" />
+      <workItem from="1575334999612" duration="740000" />
     </task>
     <servers />
   </component>
@@ -685,13 +393,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1835000" />
+    <option name="totallyTimeSpent" value="3332000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.24061662" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.16823056" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -721,7 +429,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Database" order="7" weight="0.32908848" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.24262735" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.24329759" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20911528" />
@@ -779,6 +487,9 @@
       </map>
     </option>
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
@@ -803,9 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -813,9 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4375">
           <caret line="201" column="59" selection-start-line="201" selection-start-column="59" selection-end-line="201" selection-end-column="59" />
-          <folding>
-            <element signature="n#style#0;n#el-input#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -829,48 +534,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/PermissionController.java">
+    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/PermissionDao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/service/PermissionServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="47" column="43" lean-forward="true" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#940#941#0" expanded="true" />
-            <element signature="e#1418#1419#0" expanded="true" />
-            <element signature="e#1467#1468#0" expanded="true" />
-            <element signature="e#1514#1515#0" expanded="true" />
-            <element signature="e#1560#1561#0" expanded="true" />
-            <element signature="e#1847#1848#0" expanded="true" />
-            <element signature="e#1893#1894#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="429">
+          <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/dao/PermissionDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="500">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/PermissionDao.xml">
+    <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/PermissionController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="42" column="82" selection-start-line="42" selection-start-column="69" selection-end-line="42" selection-end-column="82" />
+        <state relative-caret-position="204">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/service/PermissionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
