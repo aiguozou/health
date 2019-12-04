@@ -84,12 +84,14 @@ public class MessageConstant {
     public static final String DELETE_PERMISSION_FAIL = "删除权限失败";
     public static final String DELETE_PERMISSION_SUCCESS = "删除权限成功";
 
-<<<<<<< HEAD
+
     public static final String QUERY_MENU_SUCCESS = "查询菜单成功";
     public static final String QUERY_MENU_FAIL = "查询菜单失败";
-=======
+    public static final String ADD_MENU_FAIL = "添加菜单失败";
+    public static final String ADD_MENU_SUCCESS = "添加菜单成功";
+
     public static final String VALIDATEADDRESSNAME_ERROR = "地址输入错误";
->>>>>>> 2f9f25038615cf769c095168ac385c4a9993ccbd
+
 
 
     public static final String ADD_USERINFO_FAIL = "添加用户信息失败";
