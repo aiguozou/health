@@ -42,6 +42,10 @@
         delete from t_role where id=#{id}
     </delete>
     <select id="findAll" resultType="cn.skunk.pojo.Role">
-        select *from t_role
+        select * from t_role
+    </select>
+
+    <select id="findRoleById" resultType="cn.skunk.pojo.Role">
+        select * from t_role where id in(select role_id from t_role_menu where menu_id=#{menu_id})
     </select>
 </mapper>
