@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="cn.skunk.dao.MemberSortDao">
+    <resultMap id="findByIdMap" type="cn.skunk.pojo.OBJECT_MEMBER" autoMapping="true">
+        <id column="mid" property="id"></id>
+        <collection property="sort"  ofType="string" javaType="java.util.ArrayList">
+            <result column="ssort"/>
+        </collection>
+    </resultMap>
+    <insert id="insert_sort">
+            insert into t_member_sort values( #{member_id},#{sort_id})
+    </insert>
+
+    <update id="edit" parameterType="cn.skunk.pojo.OBJECT_MEMBER">
+        UPDATE `t_member` SET
+         fileNumber =#{fileNumber},
+         name=#{name},
+        sex =#{sex},
+         age=#{age}
+         where id=#{id}
+    </update>
+    <delete id="delete_sortByMemberId">
+        delete from   t_member_sort where member_id=#{value}
+    </delete>
+
+    <select id="findPage" parameterType="string" resultMap="findByIdMap">
+SELECT m.id mid,m.* ,s.id sid,s.*,s.`sort` ssort FROM `t_member` m LEFT JOIN  `t_member_sort` ms ON  m.`id`=ms.`member_id`
+LEFT JOIN `t_sort` s  ON s.id=ms.`sort_id`
+    </select>
+
+    <select id="findAll" resultType="cn.skunk.pojo.Sort">
+        select * from t_sort
+    </select>
+    <select id="findById" resultType="cn.skunk.pojo.OBJECT_MEMBER">
+         SELECT * FROM `t_member`  where id=#{value}
+          </select>
+</mapper>

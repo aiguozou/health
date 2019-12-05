@@ -28,4 +28,9 @@
     <select id="findByOrderDate" parameterType="date" resultType="cn.skunk.pojo.OrderSetting">
         select * from t_ordersetting where orderDate = #{orderDate}
     </select>
+
+    <!--删除预约日期-->
+    <update id="deleteOrderSetting" parameterType="String" >
+        update t_ordersetting set number = -1 where orderDate = #{orderDate}
+    </update>
  </mapper>

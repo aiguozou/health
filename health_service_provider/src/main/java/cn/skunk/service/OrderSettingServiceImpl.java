@@ -1,7 +1,9 @@
 package cn.skunk.service;
 
 import cn.skunk.dao.OrderSettingDao;
+import cn.skunk.entity.Result;
 import cn.skunk.pojo.OrderSetting;
+import cn.skunk.utils.DateUtils;
 import com.alibaba.dubbo.config.annotation.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
@@ -54,6 +56,16 @@ public class OrderSettingServiceImpl implements OrderSettingService {
             orderSettingDao.editNumberByOrderDate(orderSetting);
         }else {
             orderSettingDao.add(orderSetting);
+        }
+    }
+
+    public Result deleteOrderSetting(Date orderDate) {
+        try {
+            orderSettingDao.deleteOrderSetting(DateUtils.parseDate2String(orderDate));
+            return new Result(true,"删除预约日期成功");
+        } catch (Exception e) {
+            e.printStackTrace();
+            return new Result(false,"删除预约日期失败");
         }
     }
 }

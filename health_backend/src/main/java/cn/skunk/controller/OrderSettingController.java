@@ -62,4 +62,15 @@ public class OrderSettingController {
         }
         return new Result(true,MessageConstant.ORDERSETTING_SUCCESS);
     }
+
+    @RequestMapping("/deleteOrderSetting")
+    public Result deleteOrderSetting(@RequestBody OrderSetting orderSetting) {
+        try {
+            Date orderDate = orderSetting.getOrderDate();
+            return orderSettingService.deleteOrderSetting(orderDate);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return new Result(false,"未知错误");
+        }
+    }
 }
