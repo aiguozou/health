@@ -5,4 +5,8 @@
     <select id="findByUsername" parameterType="string" resultType="cn.skunk.pojo.User">
         select * from t_user where username=#{username}
     </select>
+
+    <select id="findCountById" parameterType="int" resultType="int">
+        select count(*) from t_user_role where role_id=#{role_id}
+    </select>
 </mapper>

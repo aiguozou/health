@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="cn.skunk.dao.MenuDao">
+    <resultMap id="findPageMap" type="cn.skunk.pojo.Menu" autoMapping="true">
+        <id column="id" property="id"/>
+        <collection property="children" column="id" ofType="cn.skunk.pojo.Menu" javaType="ArrayList"
+                    select="cn.skunk.dao.MenuDao.findMenuById"></collection>
+        <collection property="roles" column="id" ofType="cn.skunk.pojo.Role" javaType="java.util.Set"
+                    select="cn.skunk.dao.RoleDao.findRoleById"></collection>
+    </resultMap>
+    <resultMap id="selectMenuByIdMap" type="cn.skunk.pojo.OBJECT_Menu" autoMapping="false">
+        <result javaType="string" column="path" property="path"/>
+        <result javaType="string" column="name" property="title"/>
+        <result javaType="string" column="icon" property="icon"/>
+        <result javaType="string" column="linkUrl" property="linkUrl"/>
+        <collection  property="children"  column="id"
+                     javaType="java.util.ArrayList"
+                    ofType="cn.skunk.pojo.OBJECT_Menu"
+                     select="cn.skunk.dao.MenuDao.getNextNodeTree"/>
+    </resultMap>
+    <resultMap id="getNextNodeTreeMap" type="cn.skunk.pojo.OBJECT_Menu"
+               autoMapping="false">
+        <result javaType="string" column="path" property="path"/>
+        <result javaType="string" column="name" property="title"/>
+        <result javaType="string" column="linkUrl" property="linkUrl"/>
+        <result javaType="string" column="icon" property="icon"/>
+        <collection column="id" property="children" javaType="java.util.ArrayList"
+                    ofType="cn.skunk.pojo.OBJECT_Menu" select="cn.skunk.dao.MenuDao.getNextNodeTree"/>
+
+    </resultMap>
+    <select id="findPage" parameterType="string" resultMap="findPageMap">
+        select * from t_menu
+        <where>
+            <if test="value!=null and value.length>0">
+                name=#{value}
+            </if>
+        </where>
+        order by parentMenuId asc
+    </select>
+
+    <select id="findMenuById" resultType="cn.skunk.pojo.Menu">
+      SELECT * FROM t_menu WHERE parentMenuId=#{parentMenuId}
+    </select>
+
+    <select id="findAll" resultType="cn.skunk.pojo.Menu">
+        select * from t_menu           order by parentMenuId asc
+    </select>
+
+    <insert id="add" parameterType="cn.skunk.pojo.Menu">
+        <selectKey resultType="java.lang.Integer" order="AFTER" keyProperty="id">
+            select LAST_INSERT_ID()
+        </selectKey>
+        insert into t_menu
+        values(null,#{name},#{linkUrl},#{path},#{priority},#{icon},#{description},#{parentMenuId},#{level})
+    </insert>
+
+    <insert id="setMenuAndRole" parameterType="map">
+        insert into t_role_menu(menu_id,role_id) values(#{menuId},#{roleId})
+    </insert>
+    <select id="selectLevelRoot" resultType="int">
+        SELECT id FROM t_menu WHERE LEVEL=1
+    </select>
+    <select id="selectMenuById" resultMap="selectMenuByIdMap">
+            SELECT * FROM t_menu WHERE id=#{value}
+    </select>
+    <select id="getNextNodeTree" resultMap="getNextNodeTreeMap">
+            SELECT * FROM t_menu WHERE parentMenuId=#{value}
+    </select>
+    <!--delete-->
+    <delete id="delete" parameterType="int">
+        delete from t_menu where id =#{value}
+    </delete>
+    <!--deleteMenuByParentId-->
+    <delete id="deleteMenuByParentId" parameterType="int">
+        delete from t_menu where parentMenuId =#{value}
+    </delete>
+
+</mapper>
