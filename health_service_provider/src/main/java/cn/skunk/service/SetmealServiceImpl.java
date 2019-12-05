@@ -24,6 +24,7 @@ public class SetmealServiceImpl implements SetmealService {
     @Autowired
     private JedisPool jedisPool;
 
+
     public void add(Setmeal setmeal, Integer[] checkgroupIds) {
         setmealDao.add(setmeal);
         Integer setmealId = setmeal.getId();
@@ -58,5 +59,50 @@ public class SetmealServiceImpl implements SetmealService {
 
     public List<Map<String, Object>> findSetmealCount() {
         return setmealDao.findSetmealCount();
+    }
+
+
+
+
+    @Override
+    public List<Integer> findCheckgroupIds(Integer id) {
+
+
+        return  setmealDao.findCheckgroupIds(id);
+    }
+
+    @Override
+    public void edit(Setmeal setmeal, Integer[] checkgroupIds) {
+
+        //根据套餐ID删除 中间表数据
+        setmealDao.deleteAssociation(setmeal.getId());
+        //建立套餐和检查组关联关系
+        Integer setmealId = setmeal.getId();
+        this.setSetmealAndCheckGroup(setmealId,checkgroupIds);
+        //编辑
+        setmealDao.edit(setmeal);
+    }
+
+
+    //删除套餐
+    @Override
+    public void delete(Integer id) {
+
+        //删除中间关系表
+        setmealDao.deleteBySetmealId(id);
+
+        setmealDao.deleteById(id);
+    }
+
+    //建立套餐和检查组关联关系
+    public void setSetmealAndCheckGroup(Integer setmealId,Integer[] checkgroupIds){
+        if (checkgroupIds!=null && checkgroupIds.length>0){
+            for (Integer checkgroupId : checkgroupIds) {
+                Map<String, Integer> map = new HashMap<>();
+                map.put("setmealId",setmealId);
+                map.put("checkgroupId",checkgroupId);
+                setmealDao.setSetmealAndCheckGroup(map);
+            }
+        }
     }
 }
