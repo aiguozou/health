@@ -4,6 +4,7 @@ import cn.skunk.pojo.Member;
 import com.github.pagehelper.Page;
 
 import java.util.List;
+import java.util.Map;
 
 public interface MemberPCDao {
     Page<Member> pageQuery(String queryString);
@@ -17,5 +18,6 @@ public interface MemberPCDao {
     void deleteById(Integer id);
 
     void deleteByMemberIdAndOrder(Integer id);
-    
+
+    Page<Map<String,Object>> findUpload(String queryPage);
 }

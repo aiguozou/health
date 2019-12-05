@@ -95,4 +95,12 @@
     <!--  <select id="findMemberTotalCount" resultType="int">
           select count(id) from t_member
       </select>-->
+    <select id="findUpload" resultType="map" parameterType="string">
+        SELECT m.fileNumber,m.name,m.phoneNumber,o.orderDate,o.orderStatus,o.fileAdress,s.name
+        FROM t_setmeal s,t_order o,t_member m
+        WHERE m.id = o.member_id AND o.setmeal_id=s.id
+        <if test="value!=null and value.length>0">
+            and phoneNumber=#{value} or fileNumber=#{value} or name=#{value}
+        </if>
+    </select>
 </mapper>

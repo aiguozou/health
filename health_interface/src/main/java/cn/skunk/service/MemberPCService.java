@@ -4,6 +4,8 @@ import cn.skunk.entity.PageResult;
 import cn.skunk.entity.QueryPageBean;
 import cn.skunk.pojo.Member;
 
+import java.util.List;
+import java.util.Map;
 
 
 public interface MemberPCService {
@@ -16,4 +18,7 @@ public interface MemberPCService {
     void edit(Member member);
 
     void deleteById(Integer id);
+
+
+    PageResult findUpload(QueryPageBean queryPageBean);
 }

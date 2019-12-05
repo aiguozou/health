@@ -11,6 +11,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.text.SimpleDateFormat;
+import java.util.List;
+import java.util.Map;
 
 
 @Service(interfaceClass = MemberPCService.class)
@@ -54,6 +56,19 @@ public class MemberPCServiceImpl implements MemberPCService {
     public void deleteById(Integer id) {
         deleteByMemberIdAndOrder(id);
         memberPCDao.deleteById(id);
+    }
+
+    //查询预约套餐会员信息
+
+    public PageResult findUpload(QueryPageBean queryPage) {
+        Integer currentPage = queryPage.getCurrentPage();
+        Integer pageSize = queryPage.getPageSize();
+        String queryString = queryPage.getQueryString();
+        PageHelper.startPage(currentPage, pageSize);
+        Page<Map<String,Object>> page = memberPCDao.findUpload(queryString);
+         List<Map<String,Object>> list = page.getResult();
+        long total = page.getTotal();
+        return new PageResult(total, list);
     }
 
     //删除会员与套餐的关系

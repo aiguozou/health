@@ -4,11 +4,9 @@ import cn.skunk.constant.MessageConstant;
 import cn.skunk.entity.PageResult;
 import cn.skunk.entity.QueryPageBean;
 import cn.skunk.entity.Result;
-import cn.skunk.log.MyLog;
 import cn.skunk.pojo.Member;
 import cn.skunk.service.MemberPCService;
 import com.alibaba.dubbo.config.annotation.Reference;
-
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -32,6 +30,8 @@ public class MemberPCController {
     @RequestMapping("/add")
     public Result add(@RequestBody Member member) {
         try {
+            String fileNumber = new SimpleDateFormat("yyyyMMddhhmmssSSS").format(new Date());
+            member.setFileNumber(fileNumber);
             member.setRegTime(new Date());
             memberPCService.add(member);
             return new Result(true, MessageConstant.ADD_MEMBER_SUCCESS);
@@ -63,7 +63,6 @@ public class MemberPCController {
     }
 
     @RequestMapping("/deleteById")
-    @MyLog(value = "删除会员")
     public Result deleteById(Integer id) {
         try {
             memberPCService.deleteById(id);
@@ -74,4 +73,14 @@ public class MemberPCController {
         }
     }
 
+    @RequestMapping("/findUpload")
+    public PageResult findUpload(@RequestBody QueryPageBean queryPageBean) {
+        try {
+            PageResult pageResult = memberPCService.findUpload(queryPageBean);
+            return pageResult;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
 }
