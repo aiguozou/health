@@ -105,4 +105,19 @@ public class MessageConstant {
 
     public static final String QUERY_SORT_SUCCESS = "查询人群分类成功";
     public static final String QUERY_SORT_FAIL = "查询人群分类失败";
+
+
+    public static final String EDIT_SETMEAL_SUCCESS = "编辑套餐成功";
+    public static final String EDIT_SETMEAL_FAIL = "编辑套餐失败";
+    public static final String DELETE_SETMEAL_SUCCESS = "删除套餐成功";
+    public static final String DELETE_SETMEAL_FAIL = "删除套餐失败";
+    public static final  String ADD_KNOWLEDGE_SUCCESS="新增运动知识库成功";
+    public static final  String ADD_KNOWLEDGE_FAIL="新增运动知识库失败";
+    public static final String QUERY_KNOWLEDGE_SUCCESS="查询运动知识库成功";
+    public static final String QUERY_KNOWLEDGE_FAIL="查询运动知识库失败";
+    public static  final String EDIT_KNOWLEDGE_SUCCESS="编辑运动知识库成功";
+    public static  final String EDIT_KNOWLEDGE_FAIL="编辑运动知识库失败";
+    public static  final String DELETE_KNOWLEDGE_SUCCESS="删除运动知识库成功";
+    public static  final String DELETE_KNOWLEDGE_FAIL="删除运动知识库失败";
+
 }

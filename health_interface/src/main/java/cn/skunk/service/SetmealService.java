@@ -15,7 +15,14 @@ public interface SetmealService {
 
     List<Setmeal> findAll();
 
-    Setmeal findById(int id);
 
     List<Map<String, Object>> findSetmealCount();
+
+    Setmeal findById(int id);
+
+    List<Integer> findCheckgroupIds(Integer id);
+
+    void edit(Setmeal setmeal, Integer[] checkgroupIds);
+
+    void delete(Integer id);
 }
