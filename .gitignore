@@ -1,4 +1,11 @@
+<<<<<<< HEAD
+
+.idea/workspace.xml
+.idea/vcs.xml
+.idea/uiDesigner.xml
+=======
 target
 .idea
 /.idea/misc.xml
 /.idea/modules.xml
+>>>>>>> c05faa2a67da73bbb418c0bb0b731b1180caafea

@@ -6,4 +6,6 @@ public interface UserDao {
     public User findByUsername(String username);
 
     int findCountById(Integer id);
+
+    void register(User user1);
 }

@@ -21,5 +21,5 @@ public interface PermissionService {
 
     List<Permission> findAll();
 
-    List<Permission> findCheckItemIdsByCheckGroupId(Integer id);
+    List<Permission> findPermissionIdsByRoleId(Integer id);
 }

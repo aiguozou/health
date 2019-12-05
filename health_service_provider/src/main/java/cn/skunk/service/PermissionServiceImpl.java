@@ -52,8 +52,7 @@ public class PermissionServiceImpl implements PermissionService {
         return permissionDao.findAll();
     }
 
-    @Override
-    public List<Permission> findCheckItemIdsByCheckGroupId(Integer id) {
-        return permissionDao.findCheckItemIdsByCheckGroupId(id);
+    public List<Permission> findPermissionIdsByRoleId(Integer id) {
+        return permissionDao.findPermissionIdsByRoleId(id);
     }
 }

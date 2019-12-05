@@ -22,7 +22,7 @@ public interface PermissionDao {
     public void deleteById(Integer id);
     List<Permission> findAll();
 
-    List<Permission> findCheckItemIdsByCheckGroupId(Integer id);
+    List<Permission> findPermissionIdsByRoleId(Integer id);
 
     int findCountById(Integer id);
 }

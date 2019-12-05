@@ -51,6 +51,7 @@
                                         data:['会员数量']
                                     },
                                     xAxis: {
+                                        boundaryGap: false,
                                         data: res.data.data.months
                                     },
                                     yAxis: {
@@ -59,7 +60,8 @@
                                     series: [{
                                         name: '会员数量',
                                         type: 'line',
-                                        data: res.data.data.memberCount
+                                        data: res.data.data.memberCount,
+                                        areaStyle: {}
                                     }]
                                 });
         });

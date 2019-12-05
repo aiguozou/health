@@ -5,6 +5,7 @@ import cn.skunk.constant.MessageConstant;
 import cn.skunk.entity.PageResult;
 import cn.skunk.entity.QueryPageBean;
 import cn.skunk.entity.Result;
+import cn.skunk.log.MyLog;
 import cn.skunk.pojo.Address;
 import cn.skunk.service.AddressService;
 import com.alibaba.dubbo.config.annotation.Reference;
@@ -38,6 +39,7 @@ public class AddressController {
     }
 
     @RequestMapping("/delete")
+    @MyLog(value = "删除地址")
     public Result delete(Integer id) {
         try {
             addressService.deleteById(id);
@@ -48,6 +50,7 @@ public class AddressController {
     }
 
     @RequestMapping("/add")
+    @MyLog(value = "增加地址")
     public Result add(@RequestBody Address address) {
         try {
             addressService.add(address);

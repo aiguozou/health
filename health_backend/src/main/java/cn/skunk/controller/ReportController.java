@@ -11,19 +11,21 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.OutputStream;
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
 @RestController
 @RequestMapping("/report")
-public class ReportController {
+public class ReportController implements Serializable {
     @Reference
     private MemberService memberService;
     @Reference
@@ -154,6 +156,16 @@ public class ReportController {
         } catch (Exception e) {
             e.printStackTrace();
             return new Result(false,MessageConstant.GET_BUSINESS_REPORT_FAIL);
+        }
+    }
+    @RequestMapping("/findMember")
+    public Result findMember(){
+        try {
+            Map<String,Object> result=reportService.getBusinessReportData();
+            return new Result(true,"success",result);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return new Result(false,"error");
         }
     }
 }

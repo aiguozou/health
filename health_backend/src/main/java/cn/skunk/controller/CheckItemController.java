@@ -1,5 +1,6 @@
 package cn.skunk.controller;
 
+import cn.skunk.log.MyLog;
 import cn.skunk.service.CheckItemService;
 import cn.skunk.constant.MessageConstant;
 import cn.skunk.entity.PageResult;
@@ -34,12 +35,12 @@ public class CheckItemController {
 
     @RequestMapping("/findPage")
     public PageResult findPage(@RequestBody QueryPageBean queryPageBean) {
-        PageResult page = checkItemService.findPage(queryPageBean);
-        return page;
+        return checkItemService.findPage(queryPageBean);
     }
 
     @PreAuthorize("hasAuthority('CHECKITEM_DELETE')")//权限校验
     @RequestMapping("/delete")
+    @MyLog(value = "删除检查项")
     public Result delete(Integer id) {
         try {
             checkItemService.deleteById(id);
