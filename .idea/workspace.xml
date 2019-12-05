@@ -1,50 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="fc27b6c0-353c-4370-8c55-34d832e96501" name="Default Changelist" comment="" />
-=======
-<<<<<<< Updated upstream
-    <list default="true" id="fc27b6c0-353c-4370-8c55-34d832e96501" name="Default Changelist" comment="">
+    <list default="true" id="c2ad2114-3600-4ea9-b759-6ea76a016390" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_backend/src/main/webapp/pages/security_Role.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_backend/src/main/webapp/pages/security_role.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_backend/src/main/webapp/pages/security_User.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_backend/src/main/webapp/pages/security_user.html" afterDir="false" />
     </list>
->>>>>>> 2f9f25038615cf769c095168ac385c4a9993ccbd
     <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/health_common/target/" />
     <ignored path="$PROJECT_DIR$/health_interface/target/" />
-    <ignored path="$PROJECT_DIR$/health_backend/target/" />
-    <ignored path="$PROJECT_DIR$/health_jobs/target/" />
-    <ignored path="$PROJECT_DIR$/health_service_provider/target/" />
-    <ignored path="$PROJECT_DIR$/health_mobile/target/" />
-=======
-    <list default="true" id="c759899a-abf6-49e2-ac86-c2fe53be8ef9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/health_backend/health_backend.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_backend/src/main/webapp/plugins/font-awesome/css/font-awesome.min(1).css" beforeDir="false" afterPath="$PROJECT_DIR$/health_backend/src/main/webapp/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_common/health_common.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_common/src/main/java/cn/skunk/constant/MessageConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_common/src/main/java/cn/skunk/constant/MessageConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_interface/health_interface.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_mobile/health_mobile.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_parent.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_service_provider/health_service_provider.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/CheckGroupDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/CheckGroupDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_service_provider/src/main/resources/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_service_provider/src/main/resources/spring-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-=======
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-    </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/health_common/target/" />
-    <ignored path="$PROJECT_DIR$/health_interface/target/" />
-    <ignored path="$PROJECT_DIR$/health_service_provider/target/" />
-    <ignored path="$PROJECT_DIR$/health_backend/target/" />
     <ignored path="$PROJECT_DIR$/health_jobs/target/" />
     <ignored path="$PROJECT_DIR$/health_mobile/target/" />
-    <ignored path="$PROJECT_DIR$/springsecuritydemo/target/" />
-    <ignored path="D:/springsecuritydemo/target/" />
->>>>>>> Stashed changes
+    <ignored path="$PROJECT_DIR$/health_service_provider/target/" />
+    <ignored path="$PROJECT_DIR$/health_backend/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,367 +34,73 @@
     <expand />
     <select />
   </component>
-<<<<<<< Updated upstream
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1778379745">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-<<<<<<< HEAD
-          <entry key="html" value="13" />
-          <entry key="java" value="48" />
-          <entry key="xml" value="21" />
-=======
-          <entry key="java" value="4" />
-          <entry key="xml" value="1" />
-=======
-<<<<<<< HEAD
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/AddressController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-144">
-              <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-=======
-  <component name="FUSProjectUsageTrigger">
-    <session id="-2097802183">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="40" />
-          <entry key="project.open.time.1" value="3" />
-          <entry key="project.open.time.10" value="4" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.12" value="2" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="5" />
-          <entry key="project.open.time.7" value="6" />
-          <entry key="project.open.time.8" value="12" />
-          <entry key="project.open.time.9" value="5" />
-          <entry key="project.opened" value="41" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="1" />
-          <entry key="html" value="4102" />
-          <entry key="java" value="7092" />
-          <entry key="xml" value="3594" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="HTML" value="4102" />
-          <entry key="JAVA" value="7092" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="SQL" value="60" />
-          <entry key="XML" value="3534" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="6" />
-          <entry key="css" value="2" />
-          <entry key="html" value="65" />
-          <entry key="java" value="248" />
-          <entry key="js" value="9" />
-          <entry key="properties" value="7" />
-          <entry key="xml" value="142" />
->>>>>>> Stashed changes
->>>>>>> 2f9f25038615cf769c095168ac385c4a9993ccbd
+          <entry key="class" value="1" />
+          <entry key="html" value="18" />
+          <entry key="java" value="63" />
+          <entry key="js" value="2" />
+          <entry key="properties" value="3" />
+          <entry key="xml" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-<<<<<<< HEAD
-          <entry key="HTML" value="13" />
-          <entry key="JAVA" value="48" />
-          <entry key="XML" value="21" />
-=======
-<<<<<<< Updated upstream
-          <entry key="JAVA" value="4" />
-          <entry key="XML" value="1" />
->>>>>>> 2f9f25038615cf769c095168ac385c4a9993ccbd
+          <entry key="CLASS" value="1" />
+          <entry key="HTML" value="18" />
+          <entry key="JAVA" value="63" />
+          <entry key="JavaScript" value="2" />
+          <entry key="Properties" value="3" />
+          <entry key="XML" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="234" />
-          <entry key="java" value="451" />
-          <entry key="txt" value="3" />
-          <entry key="xml" value="232" />
+          <entry key="html" value="924" />
+          <entry key="java" value="1260" />
+          <entry key="xml" value="430" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="234" />
-          <entry key="JAVA" value="451" />
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="SQL" value="1" />
-          <entry key="XML" value="231" />
+          <entry key="HTML" value="924" />
+          <entry key="JAVA" value="1260" />
+          <entry key="SQL" value="3" />
+          <entry key="XML" value="427" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-<<<<<<< HEAD
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="4" />
-=======
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="1" />
-=======
-          <entry key="CLASS" value="6" />
-          <entry key="CSS" value="2" />
-          <entry key="HTML" value="65" />
-          <entry key="JAVA" value="248" />
-          <entry key="JavaScript" value="9" />
-          <entry key="Properties" value="7" />
-          <entry key="XML" value="142" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="1778379745">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="5" />
-          <entry key="xml" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="5" />
-          <entry key="XML" value="2" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-845667191">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="6" />
-          <entry key="html" value="7" />
-          <entry key="java" value="33" />
-          <entry key="properties" value="1" />
-          <entry key="xml" value="30" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="6" />
-          <entry key="HTML" value="7" />
-          <entry key="JAVA" value="33" />
-          <entry key="Properties" value="1" />
-          <entry key="XML" value="30" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="html" value="91" />
-          <entry key="java" value="1027" />
-          <entry key="txt" value="49" />
-          <entry key="xml" value="78" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="HTML" value="91" />
-          <entry key="JAVA" value="1027" />
-          <entry key="PLAIN_TEXT" value="49" />
-          <entry key="SQL" value="1" />
-          <entry key="XML" value="77" />
->>>>>>> Stashed changes
->>>>>>> 2f9f25038615cf769c095168ac385c4a9993ccbd
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/MenuController.java">
+        <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="22" column="72" lean-forward="true" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#735#736#0" expanded="true" />
-                <element signature="e#793#794#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/MenuDao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-=======
-<<<<<<< Updated upstream
->>>>>>> 2f9f25038615cf769c095168ac385c4a9993ccbd
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/service/MenuServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-=======
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/member.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="366" column="51" selection-start-line="366" selection-start-column="51" selection-end-line="366" selection-end-column="51" />
+            <state relative-caret-position="228">
+              <caret line="80" column="49" selection-start-line="80" selection-start-column="49" selection-end-line="80" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/service/MemberPCServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1287#1288#0" expanded="true" />
-                <element signature="e#1334#1335#0" expanded="true" />
-                <element signature="e#1332#1333#0" expanded="true" />
-                <element signature="e#1362#1363#0" expanded="true" />
-                <element signature="e#1605#1606#0" expanded="true" />
-                <element signature="e#1661#1662#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/MemberPCDao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/health_common/src/main/java/cn/skunk/constant/MessageConstant.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
-              <caret line="70" column="55" selection-start-line="70" selection-start-column="55" selection-end-line="70" selection-end-column="55" />
-=======
-        <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/dao/MemberPCDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="18" column="33" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/companyMap.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="131" column="20" selection-start-line="131" selection-start-column="20" selection-end-line="131" selection-end-column="20" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#el-dialog#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#iframe#0;n#div#0;n#el-dialog#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#el-input#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#template#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#el-table#0;n#template#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-=======
-        <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/MemberPCController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8">
-              <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
->>>>>>> Stashed changes
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< Updated upstream
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/menu.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="200" column="31" lean-forward="true" selection-start-line="200" selection-start-column="31" selection-end-line="200" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/health_common/src/main/java/cn/skunk/pojo/Menu.java">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="400">
-              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-=======
-            <state relative-caret-position="275">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-=======
-<<<<<<< HEAD
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/searchAddr.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="119" column="25" lean-forward="true" selection-start-line="119" selection-start-column="25" selection-end-line="119" selection-end-column="25" />
-              <folding>
-                <element signature="n#style#0;n#el-input#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-=======
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/health_interface/src/main/java/cn/skunk/service/MemberPCService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-              </folding>
->>>>>>> Stashed changes
->>>>>>> 2f9f25038615cf769c095168ac385c4a9993ccbd
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/report_business.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -433,201 +108,51 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-<<<<<<< Updated upstream
-        <option value="HTML File" />
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-=======
-        <option value="spring-beans.schema" />
-<<<<<<< HEAD
-        <option value="HTML File" />
-        <option value="Interface" />
-=======
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-        <option value="Class" />
         <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-<<<<<<< HEAD
-      <find>checkgroup</find>
-      <find>checki</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>menu</replace>
-    </replaceStrings>
-  </component>
-=======
-      <find>com</find>
-<<<<<<< HEAD
-      <find>datatable</find>
-      <find>getCompanyAddress</find>
-      <find>bdGEO</find>
-      <find>address</find>
-      <find>findPage</find>
-      <find>dataList</find>
+      <find>menuDao</find>
       <find>tableData</find>
-      <find>pagiantion</find>
-      <find>pagination</find>
-      <find>currentPage</find>
-      <find>handleCurrentChange</find>
-      <find>pageSize</find>
-      <find>dataAddForm</find>
-      <find>handleCreate</find>
-      <find>data_</find>
-      <find>centerAndZoom</find>
-      <find>handleClose</find>
-      <find>dialogFormVisible</find>
-      <find>searchMap</find>
-      <find>r-result</find>
-      <find>searchResultPanel</find>
-      <find>initSearch</find>
-      <find>formData</find>
-      <find>companyName</find>
-      <find>el-dialog</find>
-      <find>mode</find>
-      <find>alert</find>
-      <find>map</find>
-=======
-      <find>rules</find>
-      <find>username</find>
-      <find>pagination</find>
-      <find>dataEditForm</find>
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
+      <find>con</find>
+      <find>order</find>
+      <find>se</find>
+      <find>parentMenuId</find>
+      <find>t_menu</find>
+      <find>MenuDao</find>
+      <find>children</find>
+      <find>selectLevelRoot</find>
+      <find>selectMenuByIdMap</find>
+      <find>getNextNodeTree</find>
+      <find>selectMenuById</find>
+      <find>role</find>
     </findStrings>
-    <replaceStrings>
-      <replace>hsl</replace>
-      <replace>cn</replace>
-    </replaceStrings>
   </component>
->>>>>>> Stashed changes
->>>>>>> 2f9f25038615cf769c095168ac385c4a9993ccbd
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/health_common/src/main/java/cn/skunk/constant/MessageConstant.java" />
->>>>>>> 2f9f25038615cf769c095168ac385c4a9993ccbd
-        <option value="$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/AddressController.java" />
-        <option value="$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/dao/PermissionDao.java" />
-        <option value="$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/PermissionDao.xml" />
-        <option value="$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/service/PermissionServiceImpl.java" />
-        <option value="$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/PermissionController.java" />
-        <option value="$PROJECT_DIR$/health_backend/src/test/java/cn/skunk/Test.java" />
-        <option value="$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/Test.java" />
-        <option value="$PROJECT_DIR$/health_service_provider/src/main/resources/spring-dao.xml" />
+        <option value="$PROJECT_DIR$/health_common/src/main/java/cn/skunk/pojo/Menu.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/RoleDao.xml" />
+        <option value="$PROJECT_DIR$/health_common/src/main/java/cn/skunk/pojo/OBJECT_Menu.java" />
         <option value="$PROJECT_DIR$/health_backend/src/main/webapp/pages/main.html" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/health_backend/src/main/webapp/pages/security_permission.html" />
-        <option value="$PROJECT_DIR$/health_interface/src/main/java/cn/skunk/service/MenuService.java" />
-        <option value="$PROJECT_DIR$/health_common/src/main/java/cn/skunk/constant/MessageConstant.java" />
         <option value="$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/MenuController.java" />
+        <option value="$PROJECT_DIR$/health_interface/src/main/java/cn/skunk/service/MenuService.java" />
+        <option value="$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/MenuDao.xml" />
         <option value="$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/service/MenuServiceImpl.java" />
         <option value="$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/dao/MenuDao.java" />
-        <option value="$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/MenuDao.xml" />
-        <option value="$PROJECT_DIR$/health_common/src/main/java/cn/skunk/pojo/Menu.java" />
         <option value="$PROJECT_DIR$/health_backend/src/main/webapp/pages/menu.html" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-=======
-<<<<<<< HEAD
-=======
-        <option value="$PROJECT_DIR$/health_service_provider/src/main/java/cn/hsl/service/OrderServiceImpl.java" />
-        <option value="$PROJECT_DIR$/health_mobile/src/main/webapp/pages/login.html" />
-        <option value="$PROJECT_DIR$/health_mobile/src/main/java/cn/hsl/controller/ValidateCodeController.java" />
-        <option value="$PROJECT_DIR$/health_mobile/src/main/java/cn/hsl/controller/MemberController.java" />
-        <option value="$PROJECT_DIR$/health_mobile/src/main/java/cn/hsl/controller/OrderController.java" />
-        <option value="$PROJECT_DIR$/springsecuritydemo/pom.xml" />
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-        <option value="D:/springsecuritydemo/src/main/resources/spring-security.xml" />
-        <option value="D:/springsecuritydemo/src/main/java/cn/hsl/service/SpringSecurityUserService.java" />
-        <option value="D:/springsecuritydemo/src/main/java/cn/hsl/controller/HelloController.java" />
-        <option value="D:/springsecuritydemo/pom.xml" />
-        <option value="D:/springsecuritydemo/src/main/webapp/WEB-INF/web.xml" />
-        <option value="D:/springsecuritydemo/src/main/java/cn/hsl/service/SpringSecurityUserService2.java" />
-        <option value="$PROJECT_DIR$/health_backend/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/health_interface/src/main/java/cn/hsl/service/UserService.java" />
-        <option value="$PROJECT_DIR$/health_backend/src/main/java/cn/hsl/service/SpringSecurityUserService.java" />
-        <option value="$PROJECT_DIR$/health_service_provider/src/main/java/cn/hsl/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/health_service_provider/src/main/java/cn/hsl/dao/RoleDao.java" />
-        <option value="$PROJECT_DIR$/health_service_provider/src/main/java/cn/hsl/dao/PermissionDao.java" />
-        <option value="$PROJECT_DIR$/health_service_provider/src/main/java/cn/hsl/service/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/health_service_provider/src/main/resources/cn/hsl/dao/UserDao.xml" />
-        <option value="$PROJECT_DIR$/health_service_provider/src/main/resources/cn/hsl/dao/RoleDao.xml" />
-        <option value="$PROJECT_DIR$/health_service_provider/src/main/resources/cn/hsl/dao/PermissionDao.xml" />
-        <option value="$PROJECT_DIR$/health_backend/src/main/resources/springmvc.xml" />
-        <option value="D:/springsecuritydemo/src/main/java/cn/hsl/service/SpringSecurityUserService1.java" />
-        <option value="$PROJECT_DIR$/health_backend/src/main/resources/spring-security.xml" />
-        <option value="$PROJECT_DIR$/health_backend/src/main/java/cn/hsl/controller/CheckItemController.java" />
-        <option value="$PROJECT_DIR$/health_backend/src/main/java/cn/hsl/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/health_interface/src/main/java/cn/hsl/service/MemberService.java" />
-        <option value="$PROJECT_DIR$/health_service_provider/src/main/java/cn/hsl/service/MemberServiceImpl.java" />
-        <option value="$PROJECT_DIR$/health_interface/src/main/java/cn/hsl/service/SetmealService.java" />
-        <option value="$PROJECT_DIR$/health_service_provider/src/main/java/cn/hsl/dao/SetmealDao.java" />
-        <option value="$PROJECT_DIR$/health_service_provider/src/main/java/cn/hsl/service/SetmealServiceImpl.java" />
-        <option value="$PROJECT_DIR$/health_service_provider/src/main/resources/cn/hsl/dao/SetmealDao.xml" />
-        <option value="$PROJECT_DIR$/health_backend/src/main/webapp/pages/report_setmeal.html" />
-        <option value="$PROJECT_DIR$/health_backend/src/main/webapp/pages/report_business.html" />
-        <option value="$PROJECT_DIR$/health_interface/src/main/java/cn/hsl/service/ReportService.java" />
-        <option value="$PROJECT_DIR$/health_service_provider/src/main/resources/cn/hsl/dao/OrderDao.xml" />
-        <option value="$PROJECT_DIR$/health_service_provider/src/main/java/cn/hsl/service/ReportServiceImpl.java" />
-        <option value="$PROJECT_DIR$/health_backend/src/main/java/cn/hsl/controller/ReportController.java" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/health_backend/src/main/webapp/pages/Map.html" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/health_service_provider/src/main/resources/spring-dao.xml" />
-        <option value="$PROJECT_DIR$/health_backend/src/main/webapp/pages/main.html" />
-        <option value="$PROJECT_DIR$/health_backend/src/main/webapp/pages/companyMap_2.html" />
-        <option value="$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/AddressServiceImpl.xml" />
-        <option value="$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/RoleDao.xml" />
-        <option value="$PROJECT_DIR$/health_common/src/main/java/cn/skunk/pojo/Address.java" />
-        <option value="$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/CheckGroupDao.xml" />
-        <option value="$PROJECT_DIR$/health_interface/src/main/java/cn/skunk/service/AddressService.java" />
-        <option value="$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/service/AddressServiceImpl.java" />
-        <option value="$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/dao/AddressDao.java" />
-        <option value="$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/AddressDao.xml" />
-        <option value="$PROJECT_DIR$/health_backend/src/main/webapp/pages/checkitem.html" />
-        <option value="$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/AddressController.java" />
-        <option value="$PROJECT_DIR$/health_common/src/main/java/cn/skunk/constant/MessageConstant.java" />
-        <option value="$PROJECT_DIR$/health_backend/src/main/webapp/pages/companyMap.html" />
-        <option value="$PROJECT_DIR$/health_backend/src/main/webapp/pages/searchAddr.html" />
-=======
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/health_common/src/main/java/cn/skunk/constant/MessageConstant.java" />
-        <option value="$PROJECT_DIR$/health_backend/src/main/webapp/pages/memberdata.html" />
-        <option value="$PROJECT_DIR$/health_backend/src/main/webapp/pages/main.html" />
-        <option value="$PROJECT_DIR$/health_backend/src/main/webapp/pages/member.html" />
-        <option value="$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/MemberPCController.java" />
-        <option value="$PROJECT_DIR$/health_interface/src/main/java/cn/skunk/service/MemberPCService.java" />
-        <option value="$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/service/OrderSettingServiceImpl.java" />
-        <option value="$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/MemberPCDao.xml" />
-        <option value="$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/dao/MemberPCDao.java" />
-        <option value="$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/service/MemberPCServiceImpl.java" />
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-      </list>
-    </option>
-  </component>
->>>>>>> Stashed changes
-  <component name="JsFlowSettings">
-    <service-enabled>true</service-enabled>
-    <exe-path />
-    <other-services-enabled>true</other-services-enabled>
-    <auto-save>true</auto-save>
-  </component>
-<<<<<<< Updated upstream
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -640,219 +165,91 @@
         <option name="userSettingsFile" value="D:\MAVEN\apache-maven-3.5.2\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="lookForNested" value="true" />
-      </MavenImportingSettings>
-    </option>
-=======
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-<<<<<<< HEAD
-        <option name="localRepository" value="D:\maven_repository" />
-        <option name="mavenHome" value="D:/MyToots/apache-maven-3.5.2" />
-        <option name="userSettingsFile" value="D:\MyToots\apache-maven-3.5.2\conf\settings.xml" />
-=======
-        <option name="localRepository" value="F:\soft\my_maven\repository_boot" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../my_maven/apache-maven-3.5.2" />
-        <option name="userSettingsFile" value="F:\soft\my_maven\apache-maven-3.5.2\conf\settings.xml" />
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-      </MavenGeneralSettings>
-    </option>
->>>>>>> Stashed changes
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-<<<<<<< Updated upstream
           <item name="health_backend" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="health_parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-=======
-          <item name="health_parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-<<<<<<< HEAD
           <item name="health_backend" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Run Configurations" type="21c1f71a:MavenProjectsStructure$RunConfigurationsNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="health_common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="health_jobs" type="9519ce18:MavenProjectsStructure$ProjectNode" />
->>>>>>> Stashed changes
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="health_parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-<<<<<<< Updated upstream
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-=======
->>>>>>> Stashed changes
-        </path>
-<<<<<<< HEAD
-=======
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="health_parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-<<<<<<< Updated upstream
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-=======
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
->>>>>>> Stashed changes
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="health_service_provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-<<<<<<< Updated upstream
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="health_service_provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-=======
-=======
           <item name="health_parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="health_parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
->>>>>>> Stashed changes
+          <item name="health_service_provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="health_service_provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-<<<<<<< Updated upstream
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="tomcat7" type="36feed69:MavenProjectsStructure$PluginNode" />
-=======
-<<<<<<< HEAD
           <item name="Run Configurations" type="21c1f71a:MavenProjectsStructure$RunConfigurationsNode" />
-=======
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
->>>>>>> Stashed changes
         </path>
->>>>>>> 2f9f25038615cf769c095168ac385c4a9993ccbd
       </expand>
       <select />
     </treeState>
   </component>
-<<<<<<< Updated upstream
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1255" />
+    <option name="x" value="225" />
+    <option name="y" value="6" />
+    <option name="width" value="1665" />
     <option name="height" value="1025" />
   </component>
-  <component name="ProjectId" id="1UNlxhnyW0b2f3oj3pcoEQmdraD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
-=======
-<<<<<<< HEAD
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-54" />
-    <option name="y" value="84" />
-    <option name="width" value="1473" />
-    <option name="height" value="833" />
-=======
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="107" />
-    <option name="y" value="1" />
-    <option name="width" value="1255" />
-    <option name="height" value="1025" />
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
->>>>>>> Stashed changes
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
       <pane id="Scope" />
-=======
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
->>>>>>> Stashed changes
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-<<<<<<< Updated upstream
               <item name="health_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="health" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="health_parent" type="b2602c69:ProjectViewProjectNode" />
-=======
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
->>>>>>> Stashed changes
               <item name="health" type="462c0819:PsiDirectoryNode" />
               <item name="health_backend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-<<<<<<< Updated upstream
               <item name="health_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="health" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
->>>>>>> Stashed changes
               <item name="health_backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-<<<<<<< Updated upstream
               <item name="health_parent" type="b2602c69:ProjectViewProjectNode" />
-=======
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
->>>>>>> Stashed changes
               <item name="health" type="462c0819:PsiDirectoryNode" />
               <item name="health_backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-<<<<<<< Updated upstream
               <item name="health_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="health" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-=======
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
->>>>>>> Stashed changes
               <item name="health_backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-<<<<<<< Updated upstream
               <item name="health_parent" type="b2602c69:ProjectViewProjectNode" />
-=======
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
->>>>>>> Stashed changes
               <item name="health" type="462c0819:PsiDirectoryNode" />
               <item name="health_backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
@@ -861,11 +258,7 @@
               <item name="cn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-<<<<<<< Updated upstream
               <item name="health_parent" type="b2602c69:ProjectViewProjectNode" />
-=======
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
->>>>>>> Stashed changes
               <item name="health" type="462c0819:PsiDirectoryNode" />
               <item name="health_backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
@@ -875,20 +268,26 @@
               <item name="skunk" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-<<<<<<< Updated upstream
               <item name="health_parent" type="b2602c69:ProjectViewProjectNode" />
-=======
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
->>>>>>> Stashed changes
               <item name="health" type="462c0819:PsiDirectoryNode" />
               <item name="health_backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-<<<<<<< Updated upstream
               <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="skunk" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="health_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="health" type="462c0819:PsiDirectoryNode" />
+              <item name="health_backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="skunk" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="health_parent" type="b2602c69:ProjectViewProjectNode" />
@@ -985,6 +384,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="skunk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="health_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="health" type="462c0819:PsiDirectoryNode" />
+              <item name="health_common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="skunk" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="health_parent" type="b2602c69:ProjectViewProjectNode" />
@@ -1169,32 +579,31 @@
               <item name="skunk" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="health_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="health" type="462c0819:PsiDirectoryNode" />
+              <item name="health_service_provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575374265170" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.28311688" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\git_hsl\health\health_backend\src\main\webapp\pages" />
-      <recent name="E:\git_hsl\health\health_service_provider\src\main\resources\cn\skunk\dao" />
-    </key>
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575508524588" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1208,7 +617,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.health_backend [tomcat7:run]">
+  <component name="RunManager" selected="Maven.health_service_provider [tomcat7:run]">
     <configuration name="health_backend [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -1229,56 +638,6 @@
             </option>
             <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$/health_backend" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
-    </configuration>
-    <configuration name="health_jobs [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="tomcat7:run" />
-              </list>
-            </option>
-            <option name="pomFileName" value="pom.xml" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/health_jobs" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
-    </configuration>
-    <configuration name="health_mobile [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="tomcat7:run" />
-              </list>
-            </option>
-            <option name="pomFileName" value="pom.xml" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/health_mobile" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
@@ -1310,17 +669,13 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Maven.health_jobs [tomcat7:run]" />
-      <item itemvalue="Maven.health_mobile [tomcat7:run]" />
-      <item itemvalue="Maven.health_service_provider [tomcat7:run]" />
       <item itemvalue="Maven.health_backend [tomcat7:run]" />
+      <item itemvalue="Maven.health_service_provider [tomcat7:run]" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Maven.health_backend [tomcat7:run]" />
         <item itemvalue="Maven.health_service_provider [tomcat7:run]" />
-        <item itemvalue="Maven.health_jobs [tomcat7:run]" />
-        <item itemvalue="Maven.health_mobile [tomcat7:run]" />
       </list>
     </recent_temporary>
   </component>
@@ -1329,7 +684,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fc27b6c0-353c-4370-8c55-34d832e96501" name="Default Changelist" comment="" />
+      <changelist id="c2ad2114-3600-4ea9-b759-6ea76a016390" name="Default Changelist" comment="" />
       <created>1575205181587</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -1339,7 +694,12 @@
       <workItem from="1575334999612" duration="1194000" />
       <workItem from="1575338237100" duration="4457000" />
       <workItem from="1575351591293" duration="12035000" />
-      <workItem from="1575368928519" duration="4345000" />
+      <workItem from="1575368928519" duration="9922000" />
+      <workItem from="1575380746521" duration="830000" />
+      <workItem from="1575422633746" duration="4071000" />
+      <workItem from="1575428340958" duration="10745000" />
+      <workItem from="1575440980305" duration="13071000" />
+      <workItem from="1575506542271" duration="1848000" />
     </task>
     <task id="LOCAL-00001" summary="ppp">
       <created>1575336346759</created>
@@ -1347,675 +707,11 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1575336346760</updated>
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="skunk" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="skunk" type="462c0819:PsiDirectoryNode" />
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="skunk" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="skunk" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="skunk" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="font-awesome" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="font-awesome" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-=======
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-=======
-              <item name="health_backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-              <item name="health_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="skunk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="skunk" type="462c0819:PsiDirectoryNode" />
-              <item name="constant" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="skunk" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="skunk" type="462c0819:PsiDirectoryNode" />
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-=======
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-              <item name="skunk" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="skunk" type="462c0819:PsiDirectoryNode" />
-=======
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="skunk" type="462c0819:PsiDirectoryNode" />
-=======
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_mobile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="health_service_provider" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="health_mobile" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="health_service_provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="health_mobile" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="health_service_provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="health_mobile" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_service_provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_service_provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_service_provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-=======
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_service_provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-=======
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_service_provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-=======
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-              <item name="skunk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_service_provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-=======
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-              <item name="skunk" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_service_provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-=======
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-              <item name="skunk" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_service_provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_service_provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_service_provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="skunk" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-            </path>
-            <path>
-              <item name="health" type="b2602c69:ProjectViewProjectNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="health_service_provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="skunk" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-<<<<<<< HEAD
-=======
-      <pane id="Scope" />
-      <pane id="AndroidView" />
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-    </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-<<<<<<< HEAD
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575286682689" />
-=======
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575276076796" />
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-    <property name="js.last.introduce.type" value="VAR" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-<<<<<<< HEAD
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\health_parent\health\health_backend\src\main\webapp\pages" />
-      <recent name="D:\health_parent\health\health_service_provider\src\main\resources\cn\skunk\dao" />
-      <recent name="D:\health_parent\health\health_service_provider\src\main\resources" />
-      <recent name="D:\health_parent\health_backend\src\main\webapp\template" />
-      <recent name="D:\health_parent\health_backend\src\main\webapp\pages" />
-=======
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\soft\idea\health\health_service_provider\src\main\resources\cn\skunk\dao" />
-      <recent name="F:\soft\idea\health\health_backend\src\main\webapp\pages" />
-      <recent name="D:\health_parent\health_backend\src\main\webapp\template" />
-      <recent name="D:\health_parent\health_backend\src\main\webapp\pages" />
-      <recent name="D:\health_parent\health_backend\src\main\webapp\plugins\echarts" />
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\health_parent\health_service_provider\src\main\resources\cn\hsl\dao" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Maven.health_backend [tomcat7:run]">
-    <configuration name="health_backend [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="tomcat7:run" />
-              </list>
-            </option>
-            <option name="pomFileName" value="pom.xml" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/health_backend" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
-    </configuration>
-    <configuration name="health_service_provider [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="tomcat7:run" />
-              </list>
-            </option>
-            <option name="pomFileName" value="pom.xml" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/health_service_provider" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Maven.health_service_provider [tomcat7:run]" />
-      <item itemvalue="Maven.health_backend [tomcat7:run]" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Maven.health_service_provider [tomcat7:run]" />
-<<<<<<< HEAD
-        <item itemvalue="Maven.health_backend [tomcat7:run]" />
-        <item itemvalue="JUnit.POITest.test2" />
-        <item itemvalue="JUnit.POITest.test1" />
-=======
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="c759899a-abf6-49e2-ac86-c2fe53be8ef9" name="Default Changelist" comment="" />
-      <created>1573994390617</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1573994390617</updated>
-      <workItem from="1573994393643" duration="443000" />
-      <workItem from="1573994949779" duration="3869000" />
-      <workItem from="1574039465192" duration="2996000" />
-      <workItem from="1574042500228" duration="2826000" />
-      <workItem from="1574064378488" duration="1693000" />
-      <workItem from="1574066177299" duration="1317000" />
-      <workItem from="1574072504806" duration="8566000" />
-      <workItem from="1574125935334" duration="7236000" />
-      <workItem from="1574142678931" duration="6696000" />
-      <workItem from="1574214827533" duration="25000" />
-      <workItem from="1574233996399" duration="13080000" />
-      <workItem from="1574262580464" duration="2273000" />
-      <workItem from="1574298451711" duration="5705000" />
-      <workItem from="1574314811865" duration="7303000" />
-      <workItem from="1574339515104" duration="262000" />
-      <workItem from="1574387869229" duration="3256000" />
-      <workItem from="1574401343748" duration="8316000" />
-      <workItem from="1574418907057" duration="6744000" />
-      <workItem from="1574556942901" duration="12576000" />
-      <workItem from="1574589967728" duration="7223000" />
-      <workItem from="1574601759354" duration="757000" />
-      <workItem from="1574602524519" duration="399000" />
-      <workItem from="1574602963650" duration="927000" />
-      <workItem from="1574648484792" duration="3600000" />
-      <workItem from="1574662694222" duration="5941000" />
-      <workItem from="1574676177745" duration="1600000" />
-      <workItem from="1574680982984" duration="4414000" />
-      <workItem from="1574736242170" duration="2803000" />
-      <workItem from="1574746832488" duration="9705000" />
-      <workItem from="1574758583419" duration="1242000" />
-      <workItem from="1574818601413" duration="720000" />
-      <workItem from="1574834192099" duration="16026000" />
-      <workItem from="1574909911542" duration="1831000" />
-      <workItem from="1574928797176" duration="2753000" />
-      <workItem from="1574935880081" duration="8337000" />
-      <workItem from="1574948379723" duration="719000" />
-      <workItem from="1575095062627" duration="8366000" />
-      <workItem from="1575107277797" duration="12061000" />
-      <workItem from="1575170591053" duration="317000" />
-      <workItem from="1575182088738" duration="6564000" />
-      <workItem from="1575198656426" duration="1015000" />
-      <workItem from="1575202524353" duration="47000" />
-<<<<<<< HEAD
-      <workItem from="1575203226071" duration="4369000" />
-      <workItem from="1575249660503" duration="12752000" />
-      <workItem from="1575264596062" duration="22007000" />
-=======
-      <workItem from="1575202583506" duration="583000" />
-      <workItem from="1575207366575" duration="763000" />
-      <workItem from="1575250642111" duration="22310000" />
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
     </task>
-    <task id="LOCAL-00001" summary="添加了会员管理的功能，包括对会员的：&#10;新增、修改、查询/条件查询、删除">
-      <created>1575277329661</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1575277329661</updated>
->>>>>>> Stashed changes
->>>>>>> 2f9f25038615cf769c095168ac385c4a9993ccbd
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="POITest_test1 - 2019.11.24 at 09h 44m 58s.xml">
-      <configuration name="POITest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="POITest_test2 - 2019.11.24 at 09h 50m 31s.xml">
-      <configuration name="POITest.test2" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="24623000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.22855228" />
-=======
-<<<<<<< Updated upstream
-    <option name="totallyTimeSpent" value="3786000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.24463807" />
-=======
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="231677000" />
-=======
-    <option name="totallyTimeSpent" value="218633000" />
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
+    <option name="totallyTimeSpent" value="35924000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2027,80 +723,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-<<<<<<< HEAD
-    <frame x="-54" y="84" width="1473" height="833" extended-state="1" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29370135" />
-=======
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2062982" />
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
->>>>>>> Stashed changes
->>>>>>> 2f9f25038615cf769c095168ac385c4a9993ccbd
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4952381" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" sideWeight="0.50476193" side_tool="true" weight="0.24329759" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-<<<<<<< HEAD
       <window_info id="Web" order="7" sideWeight="0.50141644" side_tool="true" weight="0.23391421" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40084985" />
-=======
-<<<<<<< Updated upstream
-      <window_info id="Web" order="7" sideWeight="0.50141644" side_tool="true" weight="0.23391421" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4016973" />
->>>>>>> 2f9f25038615cf769c095168ac385c4a9993ccbd
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38101983" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3937677" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32956153" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3201133" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3286119" />
-      <window_info anchor="bottom" id="Spring" order="11" weight="0.32956153" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32956153" />
-      <window_info anchor="bottom" id="Messages" order="13" />
-<<<<<<< HEAD
-=======
-=======
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-<<<<<<< HEAD
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.6321839" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4515778" />
-=======
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993573" weight="0.2884097" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32884097" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32956153" />
-<<<<<<< HEAD
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3201133" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Spring" order="11" weight="0.32956153" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32861805" />
-      <window_info anchor="bottom" id="Messages" order="13" />
-      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
-=======
-      <window_info active="true" anchor="bottom" id="Event Log" order="9" sideWeight="0.50064266" side_tool="true" visible="true" weight="0.2884097" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4993573" weight="0.32884097" />
-      <window_info anchor="bottom" id="Spring" order="11" weight="0.32956153" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32956153" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32884097" />
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
->>>>>>> Stashed changes
->>>>>>> 2f9f25038615cf769c095168ac385c4a9993ccbd
+      <window_info anchor="bottom" id="Spring" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -2108,48 +754,32 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-<<<<<<< HEAD
-      <window_info anchor="right" id="Database" order="7" weight="0.32908848" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.24329759" />
-=======
-<<<<<<< Updated upstream
-      <window_info anchor="right" id="Database" order="7" weight="0.32908848" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.24329759" />
-=======
-<<<<<<< HEAD
-      <window_info anchor="right" id="Database" order="7" weight="0.3283582" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.24262735" />
-      <window_info anchor="right" id="Maven" order="9" visible="true" weight="0.35031846" />
-=======
-      <window_info anchor="right" id="Database" order="7" weight="0.32908848" />
-      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.1285347" />
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
->>>>>>> Stashed changes
->>>>>>> 2f9f25038615cf769c095168ac385c4a9993ccbd
+      <window_info anchor="right" id="Database" order="7" weight="0.327748" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.20710456" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20911528" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4952381" visible="true" weight="0.24664879" />
+      <window_info id="Structure" order="1" sideWeight="0.50476193" side_tool="true" weight="0.24329759" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.50141644" side_tool="true" weight="0.23391421" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40408164" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40934843" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3937677" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32956153" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3201133" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Spring" order="11" weight="0.32956153" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32956153" />
-      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3286119" />
+      <window_info anchor="bottom" id="Spring" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -2157,725 +787,47 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" weight="0.32908848" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.24262735" />
+      <window_info anchor="right" id="Database" order="7" weight="0.327748" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.20710456" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
->>>>>>> 2f9f25038615cf769c095168ac385c4a9993ccbd
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-=======
->>>>>>> Stashed changes
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-<<<<<<< Updated upstream
     <MESSAGE value="ppp" />
     <option name="LAST_COMMIT_MESSAGE" value="ppp" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/PermissionDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="429">
-          <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/dao/PermissionDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/service/PermissionServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_interface/src/main/java/cn/skunk/service/SetmealService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="13" column="53" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/dao/SetmealDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="14" column="54" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/test/java/cn/skunk/POITest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#1498#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/test/java/cn/skunk/Test.java" />
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/Test.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/report_business.html">
-=======
-        <state relative-caret-position="-871">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_common/src/main/java/cn/skunk/constant/MessageConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/AddressController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/security_permission.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4375">
-          <caret line="201" column="59" selection-start-line="201" selection-start-column="59" selection-end-line="201" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/searchAddr.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="195" column="32" selection-start-line="195" selection-start-column="32" selection-end-line="195" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/PermissionDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/dao/PermissionDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/PermissionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-=======
-    <MESSAGE value="添加了会员管理的功能，包括对会员的：&#10;新增、修改、查询/条件查询、删除" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加了会员管理的功能，包括对会员的：&#10;新增、修改、查询/条件查询、删除" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/hsl/controller/ReportController.java" />
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/Map.html" />
-    <entry file="file://$PROJECT_DIR$/health_common/src/main/java/cn/skunk/entity/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/service/SetmealServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1160">
-          <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
-          <folding>
-            <element signature="e#2077#2078#0" expanded="true" />
-            <element signature="e#2129#2130#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1392" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="56" lean-forward="true" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/ReportController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1303">
-          <caret line="60" column="73" selection-start-line="60" selection-start-column="73" selection-end-line="60" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/resources/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/companyMap_2.html" />
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/MemberDao.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/OrderDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1627" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/PermissionDao.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/dao/CheckGroupDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/AddressServiceImpl.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/service/MemberServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-287">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-=======
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/report_business.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3300">
-          <caret line="132" column="72" selection-start-line="132" selection-start-column="52" selection-end-line="132" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/CheckGroupController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/OrderSettingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/ReportController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_interface/src/main/java/cn/skunk/service/MemberService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/MemberDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_mobile/src/main/java/cn/skunk/controller/MemberController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_common/src/main/java/cn/skunk/constant/MessageConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-951">
-          <caret line="19" column="66" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="19" column="54" lean-forward="true" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../my_maven/repository_boot/org/springframework/security/spring-security-core/5.0.5.RELEASE/spring-security-core-5.0.5.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetails.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/UserDao.xml">
+    <entry file="file://$PROJECT_DIR$/health_common/src/main/java/cn/skunk/pojo/Setmeal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/service/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="81">
-          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/dao/RoleDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/RoleDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_common/src/main/java/cn/skunk/pojo/CheckGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_common/src/main/java/cn/skunk/pojo/CheckItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/io/Serializable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar!/javax/servlet/http/HttpServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#9363#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/CheckGroupDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="33" selection-start-line="33" selection-end-line="38" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/SetmealController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-755">
-          <caret line="21" selection-start-line="21" selection-end-line="22" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/OrderSettingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="20" selection-start-line="20" selection-end-line="21" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/CheckItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="40" selection-start-line="40" selection-end-line="51" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/service/CheckGroupServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="36" selection-start-line="36" selection-end-line="41" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/CheckGroupController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-699">
-          <caret line="32" selection-start-line="32" selection-end-line="35" selection-end-column="5" />
-=======
-        <state relative-caret-position="200">
-          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_interface/src/main/java/cn/skunk/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-940">
-          <caret line="180" column="40" selection-start-line="180" selection-start-column="40" selection-end-line="180" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_mobile/src/main/resources/redis.properties">
->>>>>>> 2f9f25038615cf769c095168ac385c4a9993ccbd
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/spring-service.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/spring-tx.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/spring-redis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-450" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/CheckItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="898">
-          <caret line="59" column="74" selection-start-line="59" selection-start-column="74" selection-end-line="59" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/resources/spring-redis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-529" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/SqlMapConfig.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/resources/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="52" lean-forward="true" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../my_maven/repository_boot/org/springframework/security/spring-security-core/5.0.5.RELEASE/spring-security-core-5.0.5.RELEASE.jar!/org/springframework/security/access/intercept/AbstractSecurityInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="120" selection-start-line="120" selection-end-line="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../my_maven/repository_boot/org/springframework/security/spring-security-core/5.0.5.RELEASE/spring-security-core-5.0.5.RELEASE.jar!/org/springframework/security/access/vote/AffirmativeBased.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_mobile/src/main/resources/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-725" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../my_maven/repository_boot/org/springframework/security/spring-security-core/5.0.5.RELEASE/spring-security-core-5.0.5.RELEASE.jar!/org/springframework/security/core/authority/SimpleGrantedAuthority.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-84">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../my_maven/repository_boot/org/springframework/security/spring-security-core/5.0.5.RELEASE/spring-security-core-5.0.5.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetailsService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/service/SpringSecurityUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/service/CheckItemServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="36" selection-start-line="36" selection-end-line="40" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/setmeal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="251" column="19" selection-start-line="251" selection-start-column="12" selection-end-line="251" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_interface/src/main/java/cn/skunk/service/AddressService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-=======
-    <entry file="file://$PROJECT_DIR$/health_common/src/main/java/cn/skunk/pojo/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="173">
-          <caret line="201" column="57" selection-start-line="201" selection-start-column="57" selection-end-line="201" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/security_permission.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#el-input#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/checkgroup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="150" column="51" lean-forward="true" selection-start-line="142" selection-start-column="44" selection-end-line="150" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_common/src/main/java/cn/skunk/pojo/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/security_Role.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="116" column="26" lean-forward="true" selection-start-line="112" selection-start-column="20" selection-end-line="116" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_interface/src/main/java/cn/skunk/service/MenuService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_interface/src/main/java/cn/skunk/service/CheckItemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/CheckItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="74" column="31" lean-forward="true" selection-start-line="74" selection-start-column="3" selection-end-line="74" selection-end-column="31" />
+        <state relative-caret-position="225">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/health_common/src/main/java/cn/skunk/constant/MessageConstant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1722">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/dao/MenuDao.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="14" />
+          <caret line="90" column="56" selection-start-line="90" selection-start-column="56" selection-end-line="90" selection-end-column="56" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/service/CheckItemServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="51" column="36" lean-forward="true" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/CheckItemDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1125" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/health_interface/src/main/java/cn/skunk/service/CheckGroupService.java">
@@ -2885,10 +837,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/CheckGroupController.java">
+    <entry file="file://$PROJECT_DIR$/health_interface/src/main/java/cn/skunk/service/SetmealService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="100">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -2899,391 +851,306 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/health_common/src/main/java/cn/skunk/pojo/CheckGroup.java">
+    <entry file="file://$PROJECT_DIR$/health_common/src/main/java/cn/skunk/pojo/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="16" column="38" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="38" />
+        <state relative-caret-position="400">
+          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/health_common/src/main/java/cn/skunk/pojo/Setmeal.java">
+    <entry file="file://$PROJECT_DIR$/health_common/src/main/java/cn/skunk/pojo/Role.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="19" column="40" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="40" />
+        <state relative-caret-position="175">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/SetmealController.java">
+    <entry file="file://$PROJECT_DIR$/health_common/src/main/java/cn/skunk/pojo/Permission.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-425">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="300">
+          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/searchAddr.html">
+    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/dao/SetmealDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1350" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/AddressController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-=======
-        <state relative-caret-position="174">
-          <caret line="104" column="26" lean-forward="true" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-          <folding>
-            <element signature="n#style#0;n#span#0;n#el-dropdown-item#1;n#el-dropdown-menu#0;n#el-dropdown#0;n#div#0;n#nav#0;n#el-header#0;n#el-container#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="100">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/AddressDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/dao/AddressDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-=======
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/resources/spring-security.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="91" column="21" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
->>>>>>> 2f9f25038615cf769c095168ac385c4a9993ccbd
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/checkitem.html">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="25">
-          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-=======
-        <state relative-caret-position="174">
-          <caret line="133" column="40" lean-forward="true" selection-start-line="133" selection-start-column="40" selection-end-line="133" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/member.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="366" column="51" selection-start-line="366" selection-start-column="51" selection-end-line="366" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_interface/src/main/java/cn/skunk/service/MemberPCService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
->>>>>>> Stashed changes
->>>>>>> 2f9f25038615cf769c095168ac385c4a9993ccbd
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/OrderSettingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-525">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/MemberPCController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/service/SetmealServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-=======
-<<<<<<< Updated upstream
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/service/PermissionServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-=======
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/service/AddressServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1234#1235#0" expanded="true" />
-            <element signature="e#1275#1276#0" expanded="true" />
-            <element signature="e#1329#1330#0" expanded="true" />
-            <element signature="e#1361#1362#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_common/src/main/java/cn/skunk/pojo/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/checkitem.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="62" column="34" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="34" />
-          <folding>
-            <element signature="n#style#0;n#el-input#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/checkgroup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="253" column="35" selection-start-line="253" selection-start-column="26" selection-end-line="253" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="103" column="39" selection-start-line="103" selection-start-column="39" selection-end-line="103" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/ordersetting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-=======
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/OrderSettingDao.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/OrderDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100">
-          <caret line="63" column="20" lean-forward="true" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/service/OrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
->>>>>>> 2f9f25038615cf769c095168ac385c4a9993ccbd
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/MenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="22" column="72" lean-forward="true" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#793#794#0" expanded="true" />
-          </folding>
-=======
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/service/OrderSettingServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="55" column="46" lean-forward="true" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/service/CheckGroupServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/service/CheckItemServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="36" column="52" lean-forward="true" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/dao/CheckItemDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/CheckItemDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="108">
-          <caret line="116" column="32" lean-forward="true" selection-start-line="116" selection-start-column="32" selection-end-line="116" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/report_member.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-875">
-          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/AddressController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
-=======
-        <state relative-caret-position="86">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
->>>>>>> 2f9f25038615cf769c095168ac385c4a9993ccbd
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/CheckGroupDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="-1147">
-          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state relative-caret-position="250">
+          <caret line="30" column="56" lean-forward="true" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/SetmealDao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="49" column="46" lean-forward="true" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
+        <state relative-caret-position="525">
+          <caret line="33" column="13" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="33" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/MenuDao.xml">
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        <state relative-caret-position="25">
+          <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/menu.html">
+    <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/OrderSettingController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="200" column="31" lean-forward="true" selection-start-line="200" selection-start-column="31" selection-end-line="200" selection-end-column="31" />
+        <state relative-caret-position="-452">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/service/OrderSettingServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-918">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/RoleDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/dao/RoleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/PermissionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/service/PermissionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/PermissionDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/health_common/src/main/java/cn/skunk/pojo/Menu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-=======
-        <state relative-caret-position="-600">
-          <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        <state relative-caret-position="-25">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/dao/MemberPCDao.java">
+    <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/plugins/echarts/echarts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="33" />
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
+        <state relative-caret-position="141">
+          <caret line="3235" column="4" selection-start-line="3235" selection-start-column="4" selection-end-line="3235" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/MAVEN/repository_boot/org/springframework/security/spring-security-core/5.0.5.RELEASE/spring-security-core-5.0.5.RELEASE.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1225">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/service/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.9/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2025">
+          <caret line="107" column="41" selection-start-line="107" selection-start-column="41" selection-end-line="107" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.9/lib/src.zip!/java.base/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1225">
+          <caret line="72" column="81" selection-start-line="72" selection-start-column="81" selection-end-line="72" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.9/lib/src.zip!/java.base/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2825">
+          <caret line="136" column="19" selection-start-line="136" selection-start-column="19" selection-end-line="136" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_common/src/main/java/cn/skunk/pojo/OBJECT_Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/member.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/CheckGroupDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="53" lean-forward="true" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/dao/MenuDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/health_common/src/main/java/cn/skunk/constant/MessageConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="70" column="55" selection-start-line="70" selection-start-column="55" selection-end-line="70" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/companyMap.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="131" column="20" selection-start-line="131" selection-start-column="20" selection-end-line="131" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#el-dialog#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#el-dialog#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#el-tab-pane#0;n#el-tabs#0;n#template#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#el-input#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#template#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#el-table#0;n#template#0;n#el-tab-pane#1;n#el-tabs#0;n#template#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/searchAddr.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="119" column="25" lean-forward="true" selection-start-line="119" selection-start-column="25" selection-end-line="119" selection-end-column="25" />
-          <folding>
-            <element signature="n#style#0;n#el-input#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-=======
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/MemberPCDao.xml">
+    <entry file="file://$PROJECT_DIR$/health_interface/src/main/java/cn/skunk/service/MenuService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/MemberPCController.java">
+    <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/ordersetting.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/security_permission.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/resources/cn/skunk/dao/MenuDao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
-          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
->>>>>>> 2f9f25038615cf769c095168ac385c4a9993ccbd
+        <state relative-caret-position="104">
+          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/controller/MenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="903">
+          <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/health_backend/src/main/java/cn/skunk/service/SpringSecurityUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/security_user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_common/src/main/java/cn/skunk/entity/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_common/src/main/java/cn/skunk/entity/QueryPageBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_common/src/main/java/cn/skunk/entity/PageResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/service/MenuServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        <state relative-caret-position="950">
+          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1162#1163#0" expanded="true" />
+            <element signature="e#1202#1203#0" expanded="true" />
+            <element signature="e#1250#1251#0" expanded="true" />
+            <element signature="e#1283#1284#0" expanded="true" />
           </folding>
-=======
-    <entry file="file://$PROJECT_DIR$/health_service_provider/src/main/java/cn/skunk/service/MemberPCServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1287#1288#0" expanded="true" />
-            <element signature="e#1334#1335#0" expanded="true" />
-            <element signature="e#1332#1333#0" expanded="true" />
-            <element signature="e#1362#1363#0" expanded="true" />
-            <element signature="e#1605#1606#0" expanded="true" />
-            <element signature="e#1661#1662#0" expanded="true" />
->>>>>>> 90db4ffe3327aeaac4708d966c498675a6058391
-          </folding>
->>>>>>> Stashed changes
->>>>>>> 2f9f25038615cf769c095168ac385c4a9993ccbd
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-600" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="253" column="25" selection-start-line="253" selection-start-column="25" selection-end-line="253" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/checkitem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8311" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="80" column="49" selection-start-line="80" selection-start-column="49" selection-end-line="80" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/report_setmeal.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/health_backend/src/main/webapp/pages/report_business.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
   </component>
-<<<<<<< Updated upstream
-=======
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
@@ -3337,7 +1204,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>health_common</last-edited>
+          <last-edited>health_backend</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -3348,21 +1215,9 @@
           </splitter-proportions>
         </settings>
       </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>9</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: com.alibaba:druid:1.0.9</last-edited>
+          <last-edited>Maven: c3p0:c3p0:0.9.1.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -3374,5 +1229,4 @@
       </state>
     </states>
   </component>
->>>>>>> Stashed changes
 </project>
