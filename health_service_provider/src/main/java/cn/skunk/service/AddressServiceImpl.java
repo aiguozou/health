@@ -45,4 +45,11 @@ public class AddressServiceImpl implements AddressService {
     public void add(Address address) {
         addressDao.add(address);
     }
+
+    @Override
+    public List<String> findAddressNames() {
+        return addressDao.findAddressNames();
+    }
+
+
 }

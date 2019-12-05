@@ -4,6 +4,7 @@ import cn.skunk.entity.QueryPageBean;
 import cn.skunk.pojo.Role;
 import com.github.pagehelper.Page;
 
+import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
@@ -24,4 +25,6 @@ public interface RoleDao {
     void deleteRole_PermissionById(Integer id);
 
     void deleteById(Integer id);
+
+    List<Role> findAll();
 }

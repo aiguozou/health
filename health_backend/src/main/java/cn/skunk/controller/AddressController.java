@@ -49,7 +49,6 @@ public class AddressController {
         return new Result(true, MessageConstant.DELETE_ADDRESS_SUCCESS);
     }
 
-    //    {longitude: 103.998803, latitude: 30.757952, companyName: "111"}
     @RequestMapping("/add")
     @MyLog(value = "增加地址")
     public Result add(@RequestBody Address address) {

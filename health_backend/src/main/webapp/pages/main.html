@@ -85,6 +85,7 @@
         el: '#app',
         data: {
             username: '',//当前登录的用户名
+<<<<<<< HEAD
             menuList: [
                 {
                     "path": "1",
@@ -236,6 +237,9 @@
                     ]
                 }
             ]
+=======
+            menuList:[]
+>>>>>>> c05faa2a67da73bbb418c0bb0b731b1180caafea
         },
         created() {
             //发送ajax请求，请求Controller获取当前登录用户的用户名，展示到页面中
@@ -244,6 +248,11 @@
                     this.username = res.data.data;
                 }
             });
+            axios.get("/menu/getMenu.do").then((res)=>{
+                if (res.data.flag) {
+                    this.menuList = res.data.data;
+                }
+            })
         }
     });
     $(function () {

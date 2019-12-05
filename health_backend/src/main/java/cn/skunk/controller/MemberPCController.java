@@ -8,7 +8,7 @@ import cn.skunk.log.MyLog;
 import cn.skunk.pojo.Member;
 import cn.skunk.service.MemberPCService;
 import com.alibaba.dubbo.config.annotation.Reference;
-import org.springframework.security.core.userdetails.UserDetailsService;
+
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
