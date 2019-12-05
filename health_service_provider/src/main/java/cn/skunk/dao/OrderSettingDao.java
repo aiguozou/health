@@ -1,5 +1,6 @@
 package cn.skunk.dao;
 
+import cn.skunk.entity.Result;
 import cn.skunk.pojo.OrderSetting;
 
 import java.util.Date;
@@ -16,4 +17,6 @@ public interface OrderSettingDao {
     OrderSetting findByOrderDate(Date orderDate);
 
     public void editReservationsByOrderDate(OrderSetting orderSetting);
+
+    public void deleteOrderSetting(String orderDate);
 }

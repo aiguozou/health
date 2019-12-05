@@ -94,6 +94,11 @@
                                                                 <p>已预约{{obj.reservations}}人</p>
                                                             </div>
                                                         </template>
+                                                        <template v-else-if="obj.number < obj.reservations">
+                                                            <div class="fulled">
+                                                                <p>本日无法预约</p>
+                                                            </div>
+                                                        </template>
                                                         <template v-else>
                                                             <div class="fulled">
                                                                 <p>可预约{{obj.number}}人</p>
@@ -101,9 +106,11 @@
                                                                 <p>已满</p>
                                                             </div>
                                                         </template>
+                                                        <button v-if="obj.number > obj.reservations && dayobject.day > today" @click="handleOrderDelete(dayobject.day,obj.reservations)" class="deletebtn">删除</button>
                                                     </template>
                                                 </template>
                                                 <button v-if="dayobject.day > today" @click="handleOrderSet(dayobject.day)" class="orderbtn">设置</button>
+
                                             </template>
 											
                                         </div>
@@ -162,9 +169,45 @@
                             }
                         });
                     }).catch(() => {
-                        this.$message({
-                            type: 'info',
-                            message: '取消输入'
+                        this.$notify({
+                            title: '取消',
+                            message: '预约设置取消'
+                        });
+                    });
+                },
+                //预约删除
+                handleOrderDelete(day,reservations){
+                    this.$confirm('您确定删除本日预约吗?', '警告', {
+                        confirmButtonText: '确定',
+                        cancelButtonText: '取消',
+                        type: 'warning'
+                    }).then(() => {
+                        //发送ajax请求，将输入的数据提交到Controller
+                        if (reservations<=0){
+                            axios.post("/ordersetting/deleteOrderSetting.do",{
+                                orderDate:this.formatDate(day.getFullYear(),day.getMonth()+1,day.getDate()) //日期
+                            }).then((res) => {
+                                if(res.data.flag){
+                                    this.initData(this.formatDate(day.getFullYear(), day.getMonth() + 1, 1));
+                                    this.$message({
+                                        type:'success',
+                                        message:res.data.message
+                                    });
+                                }else{
+                                    this.$message.error(res.data.message);
+                                }
+                            });
+                        }else{
+                            this.$notify({
+                                title: '失败',
+                                message: '已有预约，无法删除',
+                                type: 'warning'
+                            });
+                        }
+                    }).catch(() => {
+                        this.$notify({
+                            title: '取消',
+                            message: '预约删除取消',
                         });
                     });
                 },

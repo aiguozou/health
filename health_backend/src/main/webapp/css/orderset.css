@@ -162,7 +162,19 @@
     padding: 3px 10px;
     color: #0ebffc;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 14px;
+}
+.everyday .deletebtn {
+    position: absolute;
+    right: 123px;
+    bottom: 10px;
+    cursor: pointer;
+    border: none;
+    background: #ff9c9d;
+    padding: 3px 10px;
+    color: #d6ffff;
+    border-radius: 4px;
+    font-size: 14px;
 }
 .days li .active {
     padding: 6px 10px;
