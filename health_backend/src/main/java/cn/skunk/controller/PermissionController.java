@@ -27,10 +27,10 @@ public class PermissionController {
         }
     }
     @RequestMapping("/findPermissionIdsByRoleId")
-    public Result findCheckItemIdsByCheckGroupId(Integer id) {
+    public Result findPermissionIdsByRoleId(Integer id) {
         try {
-            List<Permission> checkItemIds = permissionService.findCheckItemIdsByCheckGroupId(id);
-            return new Result(true,MessageConstant.QUERY_CHECKITEM_SUCCESS,checkItemIds);
+            List<Permission> permissionIds = permissionService.findPermissionIdsByRoleId(id);
+            return new Result(true,MessageConstant.QUERY_CHECKITEM_SUCCESS,permissionIds);
         } catch (Exception e) {
             return new Result(false, MessageConstant.QUERY_CHECKITEM_FAIL);
         }

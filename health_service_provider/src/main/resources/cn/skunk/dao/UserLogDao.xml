@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="cn.skunk.dao.UserLogDao" >
+    <insert id="save" parameterType="cn.skunk.pojo.UserLog">
+        insert into sys_log values(null,#{username},#{operation},#{method},#{ip},#{createTime})
+    </insert>
+
+    <select id="findByCondition" resultType="cn.skunk.pojo.UserLog">
+        select * from sys_log
+        <where>
+            <if test="value!=null and value.length>0">
+                method=#{value} or operation=#{value}
+            </if>
+        </where>
+    </select>
+</mapper>

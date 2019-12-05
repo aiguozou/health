@@ -4,6 +4,7 @@ import cn.skunk.constant.MessageConstant;
 import cn.skunk.entity.PageResult;
 import cn.skunk.entity.QueryPageBean;
 import cn.skunk.entity.Result;
+import cn.skunk.log.MyLog;
 import cn.skunk.pojo.Member;
 import cn.skunk.service.MemberPCService;
 import com.alibaba.dubbo.config.annotation.Reference;
@@ -62,6 +63,7 @@ public class MemberPCController {
     }
 
     @RequestMapping("/deleteById")
+    @MyLog(value = "删除会员")
     public Result deleteById(Integer id) {
         try {
             memberPCService.deleteById(id);

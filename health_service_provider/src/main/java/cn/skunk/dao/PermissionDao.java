@@ -10,7 +10,7 @@ public interface PermissionDao {
 
     List<Permission> findAll();
 
-    List<Permission> findCheckItemIdsByCheckGroupId(Integer id);
+    List<Permission> findPermissionIdsByRoleId(Integer id);
 
     int findCountById(Integer id);
 }

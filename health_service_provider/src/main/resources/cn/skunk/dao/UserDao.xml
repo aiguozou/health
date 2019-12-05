@@ -9,4 +9,8 @@
     <select id="findCountById" parameterType="int" resultType="int">
         select count(*) from t_user_role where role_id=#{role_id}
     </select>
+
+    <insert id="register" parameterType="cn.skunk.pojo.User">
+        insert into t_user(username,password) values(#{username},#{password})
+    </insert>
 </mapper>

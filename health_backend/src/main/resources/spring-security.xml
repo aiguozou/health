@@ -25,6 +25,7 @@
     <security:http security="none" pattern="/img/**"></security:http>
     <security:http security="none" pattern="/js/**"></security:http>
     <security:http security="none" pattern="/plugins/**"></security:http>
+    <security:http security="none" pattern="/less/**"></security:http>
     <!--
         auto-config:自动配置，如果设置为true，表示自动应用一些默认配置，比如框架会提供一个默认的登录页面
         use-expressions:是否使用spring security提供的表达式来描述权限
