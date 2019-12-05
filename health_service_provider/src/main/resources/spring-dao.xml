@@ -4,10 +4,10 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
-        <property name="username" value="root"></property>
-        <property name="password" value="root"></property>
+        <property name="username" value="lx"></property>
+        <property name="password" value="lx123456789+"></property>
         <property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
-        <property name="url" value="jdbc:mysql://localhost:3306/health"></property>
+        <property name="url" value="jdbc:mysql://rm-bp1w6ln1ap2651oenyo.mysql.rds.aliyuncs.com:3306/db2"></property>
     </bean>
 
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">

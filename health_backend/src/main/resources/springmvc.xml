@@ -20,7 +20,7 @@
     </mvc:annotation-driven>
 
     <dubbo:application name="health_backend"></dubbo:application>
-    <dubbo:registry address="zookeeper://127.0.0.1:2181"></dubbo:registry>
+    <dubbo:registry address="zookeeper://47.103.198.184:2181"></dubbo:registry>
     <dubbo:annotation  package="cn.skunk"></dubbo:annotation>
 
     <dubbo:consumer timeout="600000" check="false"/>
