@@ -13,19 +13,7 @@ public class OrderManager implements Serializable {
 	private String phoneNumber;
 	private String orderType;
 	private String orderStatus;
-
-	@Override
-	public String toString() {
-		return "OrderManager{" +
-				"id='" + id + '\'' +
-				", orderDate='" + orderDate + '\'' +
-				", orderAddress='" + orderAddress + '\'' +
-				", name='" + name + '\'' +
-				", phoneNumber='" + phoneNumber + '\'' +
-				", orderType='" + orderType + '\'' +
-				", orderStatus='" + orderStatus + '\'' +
-				'}';
-	}
+	private String addressName;
 
 	public String getId() {
 		return id;
@@ -81,5 +69,27 @@ public class OrderManager implements Serializable {
 
 	public void setOrderStatus(String orderStatus) {
 		this.orderStatus = orderStatus;
+	}
+
+	public String getAddressName() {
+		return addressName;
+	}
+
+	public void setAddressName(String addressName) {
+		this.addressName = addressName;
+	}
+
+	@Override
+	public String toString() {
+		return "OrderManager{" +
+				"id='" + id + '\'' +
+				", orderDate='" + orderDate + '\'' +
+				", orderAddress='" + orderAddress + '\'' +
+				", name='" + name + '\'' +
+				", phoneNumber='" + phoneNumber + '\'' +
+				", orderType='" + orderType + '\'' +
+				", orderStatus='" + orderStatus + '\'' +
+				", addressName='" + addressName + '\'' +
+				'}';
 	}
 }
