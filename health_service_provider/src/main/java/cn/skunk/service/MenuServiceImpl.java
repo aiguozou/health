@@ -87,8 +87,9 @@ public class MenuServiceImpl implements MenuService {
 
     @Override
     public void delete(Integer id) {
-        menuDao.delete(id);
         menuDao.deleteMenuByParentId(id);
+        menuDao.delete(id);
+
 
     }
 
