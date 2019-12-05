@@ -5,6 +5,6 @@
 
     <dubbo:application name="health_service_provider"></dubbo:application>
     <dubbo:protocol name="dubbo" port="20887"></dubbo:protocol>
-    <dubbo:registry address="zookeeper://47.103.198.184:2181"></dubbo:registry>
+    <dubbo:registry address="zookeeper://127.0.0.1:2181"></dubbo:registry>
     <dubbo:annotation package="cn.skunk.service"></dubbo:annotation>
 </beans>

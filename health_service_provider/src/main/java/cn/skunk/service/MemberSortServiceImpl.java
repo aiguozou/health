@@ -40,8 +40,8 @@ public class MemberSortServiceImpl implements MemberSortService {
 
     @Override
     public void edit(OBJECT_MEMBER object_member, Integer[] checkList) {
-        memberSortDao.edit(object_member);
         memberSortDao.delete_sortByMemberId(object_member.getId());
+        memberSortDao.edit(object_member);
         HashMap map;
         for (Integer integer : checkList) {
             map = new HashMap<>();
