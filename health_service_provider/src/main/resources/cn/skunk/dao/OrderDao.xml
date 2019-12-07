@@ -10,6 +10,10 @@
         <result column="orderStatus" property="orderStatus"/>
         <result column="setmeal_id" property="setmealId"/>
     </resultMap>
+    <!--根据日期统计会员数，统计指定日期之间的预约体检的会员数-->
+    <select id="getThisMonthOrderMember" parameterType="map" resultType="int">
+    SELECT setmeal_id FROM t_order  WHERE  orderDate BETWEEN #{MonthFirst} AND #{MonthLast}
+</select>
     <!--新增-->
     <insert id="add" parameterType="cn.skunk.pojo.Order">
         <selectKey resultType="java.lang.Integer" order="AFTER" keyProperty="id">

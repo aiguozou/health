@@ -14,9 +14,9 @@ import com.qiniu.util.Auth;
  * 七牛云工具类
  */
 public class QiniuUtils {
-    public  static String accessKey = "qGOCv2yso3eRk3EkC3poTAqADsowtN1Ze3TDhv7e";
-    public  static String secretKey = "x3ndB8gOxxMqaUBlLx4IZnbkwnrjnIG3Y9NkdsuR";
-    public  static String bucket = "unravel-skunk";
+    public  static String accessKey = "WvQ7h_ZDwg2yjCOkgdZ1CodG83Nw5FhJfNwCFHe3";
+    public  static String secretKey = "Qah2ZwltaWraYAuFakia2Qtorww6frsnqJII7Cl3";
+    public  static String bucket = "java-wangqian";
 
     public static void upload2Qiniu(String filePath,String fileName){
         //构造一个带指定Zone对象的配置类

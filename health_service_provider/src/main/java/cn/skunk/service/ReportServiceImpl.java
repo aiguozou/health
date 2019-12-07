@@ -63,4 +63,15 @@ public class ReportServiceImpl implements ReportService {
         result.put("hotSetmeal",hotSetmeal);
         return result;
     }
+    @Override
+    public Integer getThisMonthMember(Map map) {
+        return memberDao.getThisMonthMember(map).size();
+    }
+
+    //查询这个月的新增且预约体检的会员
+    @Override
+    public Integer getThisMonthOrderMember(Map map) {
+        return orderDao.getThisMonthOrderMember(map).size();
+    }
+
 }

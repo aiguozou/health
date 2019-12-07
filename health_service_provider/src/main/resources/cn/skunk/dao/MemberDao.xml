@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="cn.skunk.dao.MemberDao" >
+<mapper namespace="cn.skunk.dao.MemberDao">
     <select id="findAll" resultType="cn.skunk.pojo.Member">
         select * from t_member
     </select>
-
+    <select id="getThisMonthMember" parameterType="map" resultType="int">
+    select count(id) from t_member where regTime between #{MonthFirst} and #{MonthLast}
+</select>
     <!--根据条件查询-->
     <select id="selectByCondition" parameterType="string" resultType="cn.skunk.pojo.Member">
         select * from t_member
@@ -20,7 +22,8 @@
             SELECT LAST_INSERT_ID()
         </selectKey>
         insert into t_member(fileNumber,name,sex,idCard,phoneNumber,regTime,password,email,birthday,remark)
-        values (#{fileNumber},#{name},#{sex},#{idCard},#{phoneNumber},#{regTime},#{password},#{email},#{birthday},#{remark})
+        values
+        (#{fileNumber},#{name},#{sex},#{idCard},#{phoneNumber},#{regTime},#{password},#{email},#{birthday},#{remark})
     </insert>
 
     <!--删除会员-->

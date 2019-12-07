@@ -37,7 +37,7 @@
                 name=#{value}
             </if>
         </where>
-        order by priority asc
+        group by level,priority
     </select>
 
     <select id="findMenuById" resultType="cn.skunk.pojo.Menu">
@@ -45,7 +45,7 @@
     </select>
 
     <select id="findAll" resultType="cn.skunk.pojo.Menu">
-        select * from t_menu           order by parentMenuId asc
+        select * from t_menu  order by priority asc
     </select>
 
     <insert id="add" parameterType="cn.skunk.pojo.Menu">
@@ -60,13 +60,13 @@
         insert into t_role_menu(menu_id,role_id) values(#{menuId},#{roleId})
     </insert>
     <select id="selectLevelRoot" resultType="int">
-        SELECT id FROM t_menu WHERE LEVEL=1
+        SELECT id FROM t_menu WHERE LEVEL=1  group by level,priority
     </select>
     <select id="selectMenuById" resultMap="selectMenuByIdMap">
             SELECT * FROM t_menu WHERE id=#{value}
     </select>
     <select id="getNextNodeTree" resultMap="getNextNodeTreeMap">
-            SELECT * FROM t_menu WHERE parentMenuId=#{value}
+            SELECT * FROM t_menu WHERE parentMenuId=#{value}  group by level,priority
     </select>
     <!--delete-->
     <delete id="delete" parameterType="int">
